@@ -7,125 +7,165 @@
 <title>The Road to CA — ARM Business School</title>
 <meta name="description" content="The full route from PRC to the Strategic Case Study, with eligibility and where ARM teaches you along the way.">
 <link rel="icon" type="image/png" href="https://arm-business-school-website.vercel.app/assets/logo-green.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=12">
+<link rel="stylesheet" href="css/clay.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<header class="masthead" id="masthead">
-  <div class="wrap masthead__bar">
-    <a class="brand" href="./" aria-label="ARM Business School — home">
-      <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-    </a>
-    <nav class="nav" aria-label="Primary">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq">FAQs</a>
-      <a href="contact">Contact</a>
-    </nav>
-    <div class="mast-actions">
-      <a class="btn gold" href="admissions">Apply now</a>
-      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
-    </div>
-  </div>
-  <div class="mobile-nav" id="mobileNav">
-    <div class="wrap">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq">FAQs</a>
-      <a href="contact">Contact</a>
-      <a href="admissions" class="m-apply">Apply now</a>
-    </div>
+<header class="navfloat">
+  <a class="brand" href="./" aria-label="ARM Business School — home">
+    <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
+    <span>ARM Business School</span>
+  </a>
+  <nav class="navlinks" aria-label="Primary">
+    <a href="./">Home</a>
+    <a href="courses" class="active">Courses</a>
+    <a href="faculty">Faculty</a>
+    <a href="admissions">Admissions</a>
+    <a href="fees">Fees</a>
+    <a href="mocks">Mocks</a>
+    <a href="results">Results</a>
+    <a href="about">About</a>
+    <a href="faq">FAQs</a>
+    <a href="contact">Contact</a>
+  </nav>
+  <div class="nav-cta">
+    <a class="btn btn-primary btn-sm" href="admissions">Apply Now</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
   </div>
 </header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <a href="./">Home</a>
+  <a href="courses">Courses</a>
+  <a href="faculty">Faculty</a>
+  <a href="admissions">Admissions</a>
+  <a href="fees">Fees</a>
+  <a href="mocks">Mocks</a>
+  <a href="results">Results</a>
+  <a href="about">About</a>
+  <a href="faq">FAQs</a>
+  <a href="contact">Contact</a>
+  <a href="admissions"><strong>Apply Now →</strong></a>
+</nav>
 
 <main id="main">
 
 <section class="page-hero">
   <div class="wrap">
-    <p class="kicker">Roadmap</p>
+    <span class="badge"><span class="dot"></span>Roadmap</span>
     <h1>The road to CA, in full</h1>
-    <div class="hero__rule" style="margin:1.5rem 0 0"></div>
-    <p class="page-hero__lede">The route from where you are now to qualifying as a Chartered Accountant, and where ARM teaches you along the way.</p>
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> &nbsp;/&nbsp; <a href="courses">Courses</a> &nbsp;/&nbsp; Road to CA</nav>
+    <p class="lede">The route from where you are now to qualifying as a Chartered Accountant, and where ARM teaches you along the way.</p>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> / <a href="courses">Courses</a> / Road to CA</nav>
   </div>
 </section>
 
-<section class="block">
+<section class="section section--white">
   <div class="wrap">
-    <div class="contact-grid">
+    <div class="cols">
       <ol class="steps reveal">
-        <li class="step"><div><h3>PRC — Pre-Requisite Competencies</h3><p>Three papers over two to five months, depending on the student's performance: Fundamentals of Accounting, Quantitative Analysis for Business, and Business and Economic Insights.</p></div></li>
-        <li class="step"><div><h3>CAF — Certificate in Accounting and Finance</h3><p>Eight papers in two groups, with weekly marked mocks throughout.</p></div></li>
-        <li class="step"><div><h3>Training contract</h3><p>Students register a training contract with a practising firm alongside their studies. Ask us about articleship placement.</p></div></li>
-        <li class="step"><div><h3>CFAP — Certified Finance and Accounting Professional</h3><p>Recorded lectures with guidance and mentorship alongside.</p></div></li>
-        <li class="step"><div><h3>Strategic Case Study</h3><p>The final assessment, trained with full-length attempts marked against the examiner's grid.</p></div></li>
+        <li class="step">
+          <h3>PRC — Pre-Requisite Competencies</h3>
+          <p>Three papers over two to five months, depending on the student's performance: Fundamentals of Accounting, Quantitative Analysis for Business, and Business and Economic Insights.</p>
+        </li>
+        <li class="step">
+          <h3>CAF — Certificate in Accounting and Finance</h3>
+          <p>Eight papers in two groups, with weekly marked mocks throughout.</p>
+        </li>
+        <li class="step">
+          <h3>Training contract</h3>
+          <p>Students register a training contract with a practising firm alongside their studies. Ask us about articleship placement.</p>
+        </li>
+        <li class="step">
+          <h3>CFAP — Certified Finance and Accounting Professional</h3>
+          <p>Recorded lectures with guidance and mentorship alongside.</p>
+        </li>
+        <li class="step">
+          <h3>Strategic Case Study</h3>
+          <p>The final assessment, trained with full-length attempts marked against the examiner's grid.</p>
+        </li>
       </ol>
-      <div class="reveal" data-delay="1">
-        <p class="eyebrow">Eligibility</p>
-        <h3 style="margin-bottom:1rem">Where do you stand?</h3>
-        <p>To register directly, you need the required percentage in FSc / intermediate, or the required grades in A levels. If you fall short of it, you must first pass ICAP's QAT (Qualifying Assessment Test). With less than 50% in intermediate, you cannot sit the QAT either.</p>
-        <p>Ask us to check where you stand — send your result and we will map your route.</p>
-        <div class="apply-row">
-          <a class="btn" href="contact">Check my eligibility <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      <div class="reveal">
+        <div class="clay-card" style="margin-bottom:1.4rem">
+          <div class="tile tile--lav">✅</div>
+          <span class="tagline">Eligibility</span>
+          <h3>Where do you stand?</h3>
+          <p>To register directly, you need the required percentage in FSc / intermediate, or the required grades in A levels. If you fall short of it, you must first pass ICAP's QAT (Qualifying Assessment Test). With less than 50% in intermediate, you cannot sit the QAT either.</p>
+          <p>Ask us to check where you stand — send your result and we will map your route.</p>
+          <a class="btn btn-primary btn-sm" href="contact" style="margin-top:.6rem">Check my eligibility</a>
         </div>
-        <div class="card" style="margin-top:1.5rem"><div class="card__body">
-          <span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-map"/></svg></span>
-          <span class="card__tag">Start</span><h3>Begin at your level</h3>
+        <div class="clay-card">
+          <div class="tile tile--green">🏛️</div>
+          <span class="tagline">Start</span>
+          <h3>Begin at your level</h3>
           <p>PRC, CAF, CFAP or the Case Study — registration takes you straight to the right form.</p>
-          <a class="card__link" href="courses">Browse courses <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
-        </div></div>
+          <a class="card-link" href="courses">Browse courses →</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="cta">
-  <div class="wrap reveal">
-    <h2>Ready to start with us?</h2>
-    <p>Fill the registration form for your level and your portal opens within 48 hours.</p>
-    <div class="cta__row">
-      <a class="btn light" href="admissions">Apply for the next session <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
-      <a class="btn" style="background:transparent;border-color:rgba(255,255,255,.6)" href="fees">See fees</a>
+<section class="cta-band">
+  <div class="wrap">
+    <div class="cta-card reveal">
+      <h2>Ready to start with us?</h2>
+      <p>Fill the registration form for your level and your portal opens within 48 hours.</p>
+      <div class="cta-card__row">
+        <a class="btn btn-primary" href="admissions">Apply for the next session</a>
+        <a class="btn btn-secondary" href="fees">See fees</a>
+      </div>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="site">
+<footer class="footer">
   <div class="wrap">
-    <div class="foot-top">
-      <div>
-        <div class="foot-brand">
-          <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-        </div>
-        <p class="foot-motto">Learn. Lead. Succeed.</p>
-        <p class="foot-tag">A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
-        <div class="social">
-          <a href="https://wa.me/923327948519" aria-label="WhatsApp"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-whatsapp"/></svg></a>
-          <a href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-mail"/></svg></a>
-          <a href="tel:+922137123083" aria-label="Phone"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-phone"/></svg></a>
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="./" aria-label="ARM Business School — home">
+          <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
+          <span>ARM Business School</span>
+        </a>
+        <p>A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
+        <p><strong>Learn. Lead. Succeed.</strong></p>
+        <div class="social-row">
+          <a class="soc" href="https://wa.me/923327948519" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+          <a class="soc" href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+          <a class="soc" href="tel:+922137123083" aria-label="Phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
         </div>
       </div>
-      <div><h4 class="fh">Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
-      <div><h4 class="fh">Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
-      <div><h4 class="fh">Visit and reach us</h4><ul><li>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi</li><li><a href="tel:+922137123083">021-37123083</a></li><li><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a></li><li>Monday to Saturday, 9:00 am to 5:00 pm</li></ul></div>
+      <div class="foot-col">
+        <h4>Courses</h4>
+        <ul>
+          <li><a href="courses.html#prc">PRC</a></li>
+          <li><a href="courses.html#caf">CAF</a></li>
+          <li><a href="courses.html#cfap">CFAP</a></li>
+          <li><a href="courses.html#scs">Strategic Case Study</a></li>
+          <li><a href="courses.html#hoc">Hands-on Courses</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="admissions">Admissions</a></li>
+          <li><a href="fees">Fees</a></li>
+          <li><a href="mocks">Testing</a></li>
+          <li><a href="roadmap">Roadmap</a></li>
+          <li><a href="faq">FAQs</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Visit</h4>
+        <address>
+          Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi<br>
+          <a href="tel:+922137123083">021-37123083</a><br>
+          <a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a><br>
+          Monday to Saturday, 9:00 am to 5:00 pm
+        </address>
+      </div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> ARM Business School. All rights reserved.</span>
@@ -134,7 +174,7 @@
   </div>
 </footer>
 
-<button class="totop" id="totop" aria-label="Back to top"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
-<script src="js/app.js?v=3" defer></script>
+<button class="totop" id="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script src="js/app.js" defer></script>
 </body>
 </html>

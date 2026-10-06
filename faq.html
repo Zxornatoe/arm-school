@@ -7,153 +7,190 @@
 <title>FAQs — ARM Business School</title>
 <meta name="description" content="Official answers on fees, classes, the portal, courses, admission and books at ARM Business School.">
 <link rel="icon" type="image/png" href="https://arm-business-school-website.vercel.app/assets/logo-green.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=12">
+<link rel="stylesheet" href="css/clay.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<header class="masthead" id="masthead">
-  <div class="wrap masthead__bar">
-    <a class="brand" href="./" aria-label="ARM Business School — home">
-      <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-    </a>
-    <nav class="nav" aria-label="Primary">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq" class="active">FAQs</a>
-      <a href="contact">Contact</a>
-    </nav>
-    <div class="mast-actions">
-      <a class="btn gold" href="admissions">Apply now</a>
-      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
-    </div>
-  </div>
-  <div class="mobile-nav" id="mobileNav">
-    <div class="wrap">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq">FAQs</a>
-      <a href="contact">Contact</a>
-      <a href="admissions" class="m-apply">Apply now</a>
-    </div>
+<header class="navfloat">
+  <a class="brand" href="./" aria-label="ARM Business School — home">
+    <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
+    <span>ARM Business School</span>
+  </a>
+  <nav class="navlinks" aria-label="Primary">
+    <a href="./">Home</a>
+    <a href="courses">Courses</a>
+    <a href="faculty">Faculty</a>
+    <a href="admissions">Admissions</a>
+    <a href="fees">Fees</a>
+    <a href="mocks">Mocks</a>
+    <a href="results">Results</a>
+    <a href="about">About</a>
+    <a href="faq" class="active">FAQs</a>
+    <a href="contact">Contact</a>
+  </nav>
+  <div class="nav-cta">
+    <a class="btn btn-primary btn-sm" href="admissions">Apply Now</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
   </div>
 </header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <a href="./">Home</a>
+  <a href="courses">Courses</a>
+  <a href="faculty">Faculty</a>
+  <a href="admissions">Admissions</a>
+  <a href="fees">Fees</a>
+  <a href="mocks">Mocks</a>
+  <a href="results">Results</a>
+  <a href="about">About</a>
+  <a href="faq">FAQs</a>
+  <a href="contact">Contact</a>
+  <a href="admissions"><strong>Apply Now →</strong></a>
+</nav>
 
 <main id="main">
 
 <section class="page-hero">
   <div class="wrap">
-    <p class="kicker">FAQs</p>
+    <span class="badge"><span class="dot"></span>FAQs</span>
     <h1>Frequently asked</h1>
-    <div class="hero__rule" style="margin:1.5rem 0 0"></div>
-    <p class="page-hero__lede">The answers below are our official policies. If your question is not here, send us a message.</p>
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> &nbsp;/&nbsp; FAQs</nav>
+    <p class="lede">The answers below are our official policies. If your question is not here, send us a message.</p>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> / FAQs</nav>
   </div>
 </section>
 
-<section class="block">
+<section class="section section--white">
   <div class="wrap">
-    <div class="sec-head reveal"><h2>Fees</h2></div>
-    <div class="reveal" style="margin-bottom:clamp(2rem,4vw,3rem)">
-      <details class="q"><summary>Can the course fee be paid in more than two installments?<span class="pm"></span></summary><div class="a">No. The fee is strictly payable in two equal installments only.</div></details>
-      <details class="q"><summary>Is the installment facility available for repeater students?<span class="pm"></span></summary><div class="a">No. Installments are not permitted on repeater fees, and no discount is offered on repeater fees.</div></details>
-      <details class="q"><summary>Is any fee discount available?<span class="pm"></span></summary><div class="a">Fee concessions may be considered strictly on the basis of genuine financial hardship. Students requesting a discount must submit:
+
+    <div class="sec-head reveal">
+      <span class="badge badge--yellow"><span class="dot"></span>Money matters</span>
+      <h2>Fees</h2>
+    </div>
+    <div class="faq-group reveal">
+      <details class="faq-item"><summary>Can the course fee be paid in more than two installments?<span class="pm"></span></summary><div class="a">No. The fee is strictly payable in two equal installments only.</div></details>
+      <details class="faq-item"><summary>Is the installment facility available for repeater students?<span class="pm"></span></summary><div class="a">No. Installments are not permitted on repeater fees, and no discount is offered on repeater fees.</div></details>
+      <details class="faq-item"><summary>Is any fee discount available?<span class="pm"></span></summary><div class="a">Fee concessions may be considered strictly on the basis of genuine financial hardship. Students requesting a discount must submit:
 1. Details of source of income
 2. Latest payslip, if applicable
 3. Electricity bills for the last three months
 4. Total number of family members
 
 All discount requests are subject to management review and approval. Submitting the documents does not guarantee approval.</div></details>
-      <details class="q"><summary>My friend was given a lower fee. Can I have the same fee?<span class="pm"></span></summary><div class="a">Fee concessions are not granted on a student-to-student comparison basis. Discounts are assessed individually. If you wish to apply for a concession, please submit the required financial documentation for review.</div></details>
-      <details class="q"><summary>Is a freeze option available after the result?<span class="pm"></span></summary><div class="a">Yes. The freeze option is available to students who have paid full or partial fees, provided the request is submitted within the announced deadline. Requests submitted after the specified dates will not be entertained.</div></details>
-      <details class="q"><summary>What does a CAF subject cost?<span class="pm"></span></summary><div class="a">For the August 2026 attempt, each CAF subject is Rs 18,000 online and Rs 23,000 hybrid. Business Law Dynamics can also be taken as the Business Law portion or the Company Law portion alone, at Rs 10,000 each.</div></details>
-      <details class="q"><summary>What is the refresher fee?<span class="pm"></span></summary><div class="a">Joining from the start of the batch: Rs 8,000 for our own students and Rs 10,000 for outsiders. Joining after the result: Rs 6,000 and Rs 8,000. Customised students are treated as outsider refreshers.</div></details>
-      <details class="q"><summary>Where do I transfer the fee?<span class="pm"></span></summary><div class="a">For CFAP: Bank Islami, account title ARM TEACHING SOLUTIONS, account number 120300109280001. For CAF: Meezan Bank, account title ARM Business School, account number 99510114774472.</div></details>
+      <details class="faq-item"><summary>My friend was given a lower fee. Can I have the same fee?<span class="pm"></span></summary><div class="a">Fee concessions are not granted on a student-to-student comparison basis. Discounts are assessed individually. If you wish to apply for a concession, please submit the required financial documentation for review.</div></details>
+      <details class="faq-item"><summary>Is a freeze option available after the result?<span class="pm"></span></summary><div class="a">Yes. The freeze option is available to students who have paid full or partial fees, provided the request is submitted within the announced deadline. Requests submitted after the specified dates will not be entertained.</div></details>
+      <details class="faq-item"><summary>What does a CAF subject cost?<span class="pm"></span></summary><div class="a">For the August 2026 attempt, each CAF subject is Rs 18,000 online and Rs 23,000 hybrid. Business Law Dynamics can also be taken as the Business Law portion or the Company Law portion alone, at Rs 10,000 each.</div></details>
+      <details class="faq-item"><summary>What is the refresher fee?<span class="pm"></span></summary><div class="a">Joining from the start of the batch: Rs 8,000 for our own students and Rs 10,000 for outsiders. Joining after the result: Rs 6,000 and Rs 8,000. Customised students are treated as outsider refreshers.</div></details>
+      <details class="faq-item"><summary>Where do I transfer the fee?<span class="pm"></span></summary><div class="a">For CFAP: Bank Islami, account title ARM TEACHING SOLUTIONS, account number 120300109280001. For CAF: Meezan Bank, account title ARM Business School, account number 99510114774472.</div></details>
     </div>
 
-    <div class="sec-head reveal"><h2>Classes &amp; courses</h2></div>
-    <div class="reveal" style="margin-bottom:clamp(2rem,4vw,3rem)">
-      <details class="q"><summary>Will classes be conducted physically, or will recordings be provided?<span class="pm"></span></summary><div class="a">Both. Students have access to live classes as well as recorded lectures.</div></details>
-      <details class="q"><summary>What is hybrid mode?<span class="pm"></span></summary><div class="a">Hybrid mode allows you to attend both physical classes and live online sessions, giving you flexibility in how you study.</div></details>
-      <details class="q"><summary>What is the difference between online and hybrid?<span class="pm"></span></summary><div class="a">Online means you attend the live session remotely and watch the recordings. Hybrid lets you move between physical classes and live online sessions as your schedule allows. Hybrid costs Rs 23,000 per CAF subject against Rs 18,000 for online.</div></details>
-      <details class="q"><summary>If I choose online mode, can I attend mock exams and workshops physically?<span class="pm"></span></summary><div class="a">Yes. Students enrolled in online mode may attend mock examinations and workshops physically at the campus.</div></details>
-      <details class="q"><summary>Do you provide recorded classes?<span class="pm"></span></summary><div class="a">Yes. Recorded lectures of the live sessions are available to students.</div></details>
-      <details class="q"><summary>Are CFAP classes conducted physically on a daily basis?<span class="pm"></span></summary><div class="a">No. CFAP classes are conducted in recorded format only. Physical classes are not offered for CFAP.</div></details>
-      <details class="q"><summary>When will the CAF course be completed?<span class="pm"></span></summary><div class="a">The course is completed at least one month before the examination date, to leave adequate time for revision and practice. In most cases our teachers finish around 1.5 months before.</div></details>
-      <details class="q"><summary>How many papers are there in CAF?<span class="pm"></span></summary><div class="a">Eight, in two groups. Group A is CAF-01 Financial Accounting and Reporting, CAF-02 Taxation Principles and Compliance, CAF-03 Data, Systems and Risks and CAF-04 Business Law Dynamics. Group B is CAF-05 Management Accounting, CAF-06 Corporate Reporting, CAF-07 Business Insights and Analysis and CAF-08 Audit and Assurance Essentials.</div></details>
-      <details class="q"><summary>What is the English Communication Skills course?<span class="pm"></span></summary><div class="a">HOC-03 English Communication Skills is a hands-on short course taught by Sir Abdul Basit Khan, alongside the CA papers.</div></details>
-      <details class="q"><summary>Will a refresher get a new batch or the same lectures?<span class="pm"></span></summary><div class="a">A refresher joins the running batch and continues with it from that point onward. You are also given a road map to cover all the lectures.</div></details>
+    <div class="sec-head reveal">
+      <span class="badge badge--blue"><span class="dot"></span>Study modes</span>
+      <h2>Classes &amp; courses</h2>
+    </div>
+    <div class="faq-group reveal">
+      <details class="faq-item"><summary>Will classes be conducted physically, or will recordings be provided?<span class="pm"></span></summary><div class="a">Both. Students have access to live classes as well as recorded lectures.</div></details>
+      <details class="faq-item"><summary>What is hybrid mode?<span class="pm"></span></summary><div class="a">Hybrid mode allows you to attend both physical classes and live online sessions, giving you flexibility in how you study.</div></details>
+      <details class="faq-item"><summary>What is the difference between online and hybrid?<span class="pm"></span></summary><div class="a">Online means you attend the live session remotely and watch the recordings. Hybrid lets you move between physical classes and live online sessions as your schedule allows. Hybrid costs Rs 23,000 per CAF subject against Rs 18,000 for online.</div></details>
+      <details class="faq-item"><summary>If I choose online mode, can I attend mock exams and workshops physically?<span class="pm"></span></summary><div class="a">Yes. Students enrolled in online mode may attend mock examinations and workshops physically at the campus.</div></details>
+      <details class="faq-item"><summary>Do you provide recorded classes?<span class="pm"></span></summary><div class="a">Yes. Recorded lectures of the live sessions are available to students.</div></details>
+      <details class="faq-item"><summary>Are CFAP classes conducted physically on a daily basis?<span class="pm"></span></summary><div class="a">No. CFAP classes are conducted in recorded format only. Physical classes are not offered for CFAP.</div></details>
+      <details class="faq-item"><summary>When will the CAF course be completed?<span class="pm"></span></summary><div class="a">The course is completed at least one month before the examination date, to leave adequate time for revision and practice. In most cases our teachers finish around 1.5 months before.</div></details>
+      <details class="faq-item"><summary>How many papers are there in CAF?<span class="pm"></span></summary><div class="a">Eight, in two groups. Group A is CAF-01 Financial Accounting and Reporting, CAF-02 Taxation Principles and Compliance, CAF-03 Data, Systems and Risks and CAF-04 Business Law Dynamics. Group B is CAF-05 Management Accounting, CAF-06 Corporate Reporting, CAF-07 Business Insights and Analysis and CAF-08 Audit and Assurance Essentials.</div></details>
+      <details class="faq-item"><summary>What is the English Communication Skills course?<span class="pm"></span></summary><div class="a">HOC-03 English Communication Skills is a hands-on short course taught by Sir Abdul Basit Khan, alongside the CA papers.</div></details>
+      <details class="faq-item"><summary>Will a refresher get a new batch or the same lectures?<span class="pm"></span></summary><div class="a">A refresher joins the running batch and continues with it from that point onward. You are also given a road map to cover all the lectures.</div></details>
     </div>
 
-    <div class="sec-head reveal"><h2>Portal</h2></div>
-    <div class="reveal" style="margin-bottom:clamp(2rem,4vw,3rem)">
-      <details class="q"><summary>I have submitted the registration form. When will I receive access?<span class="pm"></span></summary><div class="a">Portal access is granted within 48 hours after your registration form is successfully submitted and verified.</div></details>
-      <details class="q"><summary>Please add me to the student WhatsApp group.<span class="pm"></span></summary><div class="a">Scan the QR code available on your student portal to join the official group.</div></details>
-      <details class="q"><summary>I want to log in on another device. What should I do?<span class="pm"></span></summary><div class="a">Device access can be reset on request. Contact the administration with your registered email address and we will reset it for you.</div></details>
-      <details class="q"><summary>Can access be allowed on two devices at the same time?<span class="pm"></span></summary><div class="a">No. Access is strictly limited to one device per student, to maintain academic integrity and system security.</div></details>
-      <details class="q"><summary>I logged in on another device and an error is appearing.<span class="pm"></span></summary><div class="a">Changing devices on your own is not permitted. You may access the portal on one registered device only. Contact the administration if you need a device reset.</div></details>
-      <details class="q"><summary>My portal has been deactivated. Why?<span class="pm"></span></summary><div class="a">Portal access is deactivated when there are outstanding dues. Clear the pending payment and complete the required form to restore access.</div></details>
-      <details class="q"><summary>I am getting a "wrong credentials" error. What should I do?<span class="pm"></span></summary><div class="a">Copy and paste the exact credentials shared with you, and make sure there is no extra space before or after the username or password.</div></details>
-      <details class="q"><summary>I am getting an error code while logging in.<span class="pm"></span></summary><div class="a">Watch the troubleshooting video and follow the steps carefully — if the issue persists, contact the administration office.
-<a class="vplay" data-video="7WeJ8qy5al4" href="https://youtube.com/shorts/7WeJ8qy5al4" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-play"/></svg><span>Play troubleshooting video<small>YouTube Shorts · plays right here</small></span></a>
+    <div class="sec-head reveal">
+      <span class="badge badge--lav"><span class="dot"></span>Student portal</span>
+      <h2>Portal</h2>
+    </div>
+    <div class="faq-group reveal">
+      <details class="faq-item"><summary>I have submitted the registration form. When will I receive access?<span class="pm"></span></summary><div class="a">Portal access is granted within 48 hours after your registration form is successfully submitted and verified.</div></details>
+      <details class="faq-item"><summary>Please add me to the student WhatsApp group.<span class="pm"></span></summary><div class="a">Scan the QR code available on your student portal to join the official group.</div></details>
+      <details class="faq-item"><summary>I want to log in on another device. What should I do?<span class="pm"></span></summary><div class="a">Device access can be reset on request. Contact the administration with your registered email address and we will reset it for you.</div></details>
+      <details class="faq-item"><summary>Can access be allowed on two devices at the same time?<span class="pm"></span></summary><div class="a">No. Access is strictly limited to one device per student, to maintain academic integrity and system security.</div></details>
+      <details class="faq-item"><summary>I logged in on another device and an error is appearing.<span class="pm"></span></summary><div class="a">Changing devices on your own is not permitted. You may access the portal on one registered device only. Contact the administration if you need a device reset.</div></details>
+      <details class="faq-item"><summary>My portal has been deactivated. Why?<span class="pm"></span></summary><div class="a">Portal access is deactivated when there are outstanding dues. Clear the pending payment and complete the required form to restore access.</div></details>
+      <details class="faq-item"><summary>I am getting a "wrong credentials" error. What should I do?<span class="pm"></span></summary><div class="a">Copy and paste the exact credentials shared with you, and make sure there is no extra space before or after the username or password.</div></details>
+      <details class="faq-item"><summary>I am getting an error code while logging in.<span class="pm"></span></summary><div class="a">Watch the troubleshooting video and follow the steps carefully — if the issue persists, contact the administration office.
+<a href="https://youtube.com/shorts/7WeJ8qy5al4" target="_blank" rel="noopener">Play troubleshooting video (YouTube Shorts)</a>
 </div></details>
-      <details class="q"><summary>My attempt is after 1.5 years. Until when will access be provided?<span class="pm"></span></summary><div class="a">Portal access is granted up to your first examination attempt only.</div></details>
+      <details class="faq-item"><summary>My attempt is after 1.5 years. Until when will access be provided?<span class="pm"></span></summary><div class="a">Portal access is granted up to your first examination attempt only.</div></details>
     </div>
 
-    <div class="sec-head reveal"><h2>Admission &amp; books</h2></div>
-    <div class="reveal">
-      <details class="q"><summary>Where is the registration form?<span class="pm"></span></summary><div class="a">The CAF and CFAP registration forms are linked on the Admissions page. Fill the one for your level, pay the first installment and send the payment proof with the form.</div></details>
-      <details class="q"><summary>Where do I order books from?<span class="pm"></span></summary><div class="a">Books are ordered through armbooks.com.pk.</div></details>
+    <div class="sec-head reveal">
+      <span class="badge badge--coral"><span class="dot"></span>Getting started</span>
+      <h2>Admission &amp; books</h2>
     </div>
+    <div class="faq-group reveal">
+      <details class="faq-item"><summary>Where is the registration form?<span class="pm"></span></summary><div class="a">The CAF and CFAP registration forms are linked on the Admissions page. Fill the one for your level, pay the first installment and send the payment proof with the form.</div></details>
+      <details class="faq-item"><summary>Where do I order books from?<span class="pm"></span></summary><div class="a">Books are ordered through armbooks.com.pk.</div></details>
+    </div>
+
   </div>
 </section>
 
-<section class="cta">
-  <div class="wrap reveal">
-    <h2>Still have a question?</h2>
-    <p>Send us a message and we will get back to you with the answer.</p>
-    <div class="cta__row">
-      <a class="btn light" href="contact">Contact us <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
-      <a class="btn" style="background:transparent;border-color:rgba(255,255,255,.6)" href="https://wa.me/923327948519" target="_blank" rel="noopener">WhatsApp us</a>
+<section class="cta-band">
+  <div class="wrap">
+    <div class="cta-card reveal">
+      <h2>Still have a question?</h2>
+      <p>Send us a message and we will get back to you with the answer.</p>
+      <div class="cta-card__row">
+        <a class="btn btn-primary" href="contact">Contact us</a>
+        <a class="btn btn-secondary" href="https://wa.me/923327948519" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="site">
+<footer class="footer">
   <div class="wrap">
-    <div class="foot-top">
-      <div>
-        <div class="foot-brand">
-          <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-        </div>
-        <p class="foot-motto">Learn. Lead. Succeed.</p>
-        <p class="foot-tag">A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
-        <div class="social">
-          <a href="https://wa.me/923327948519" aria-label="WhatsApp"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-whatsapp"/></svg></a>
-          <a href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-mail"/></svg></a>
-          <a href="tel:+922137123083" aria-label="Phone"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-phone"/></svg></a>
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="./" aria-label="ARM Business School — home">
+          <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
+          <span>ARM Business School</span>
+        </a>
+        <p>A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
+        <p><strong>Learn. Lead. Succeed.</strong></p>
+        <div class="social-row">
+          <a class="soc" href="https://wa.me/923327948519" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+          <a class="soc" href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+          <a class="soc" href="tel:+922137123083" aria-label="Phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
         </div>
       </div>
-      <div><h4 class="fh">Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
-      <div><h4 class="fh">Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
-      <div><h4 class="fh">Visit and reach us</h4><ul><li>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi</li><li><a href="tel:+922137123083">021-37123083</a></li><li><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a></li><li>Monday to Saturday, 9:00 am to 5:00 pm</li></ul></div>
+      <div class="foot-col">
+        <h4>Courses</h4>
+        <ul>
+          <li><a href="courses.html#prc">PRC</a></li>
+          <li><a href="courses.html#caf">CAF</a></li>
+          <li><a href="courses.html#cfap">CFAP</a></li>
+          <li><a href="courses.html#scs">Strategic Case Study</a></li>
+          <li><a href="courses.html#hoc">Hands-on Courses</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="admissions">Admissions</a></li>
+          <li><a href="fees">Fees</a></li>
+          <li><a href="mocks">Testing</a></li>
+          <li><a href="roadmap">Roadmap</a></li>
+          <li><a href="faq">FAQs</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Visit</h4>
+        <address>
+          Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi<br>
+          <a href="tel:+922137123083">021-37123083</a><br>
+          <a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a><br>
+          Monday to Saturday, 9:00 am to 5:00 pm
+        </address>
+      </div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> ARM Business School. All rights reserved.</span>
@@ -162,7 +199,7 @@ All discount requests are subject to management review and approval. Submitting 
   </div>
 </footer>
 
-<button class="totop" id="totop" aria-label="Back to top"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
-<script src="js/app.js?v=3" defer></script>
+<button class="totop" id="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script src="js/app.js" defer></script>
 </body>
 </html>
