@@ -3,25 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0E1218">
 <title>About — ARM Business School</title>
 <meta name="description" content="About ARM Business School: what we teach, how we teach, the campus, and the principal.">
 <link rel="icon" type="image/png" href="https://arm-business-school-website.vercel.app/assets/logo-green.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=12">
-<noscript><style>.reveal{opacity:1!important;transform:none!important}.strip figure.reveal{clip-path:none!important}.sec-head.reveal h2::after{transform:none!important}</style></noscript>
+<link rel="stylesheet" href="css/luxe.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<header class="masthead" id="masthead">
-  <div class="wrap masthead__bar">
+<header class="nav" id="nav">
+  <div class="wrap nav__bar">
     <a class="brand" href="./" aria-label="ARM Business School — home">
-      <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
+      <img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School">
+      <span class="brand__name">ARM Business School<small>LEARN · LEAD · SUCCEED</small></span>
     </a>
-    <nav class="nav" aria-label="Primary">
+    <nav class="navlinks" aria-label="Primary">
       <a href="./">Home</a>
       <a href="courses">Courses</a>
       <a href="faculty">Faculty</a>
@@ -33,137 +30,130 @@
       <a href="faq">FAQs</a>
       <a href="contact">Contact</a>
     </nav>
-    <div class="mast-actions">
-      <a class="btn gold" href="admissions">Apply now</a>
-      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
-    </div>
-  </div>
-  <div class="mobile-nav" id="mobileNav">
-    <div class="wrap">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq">FAQs</a>
-      <a href="contact">Contact</a>
-      <a href="admissions" class="m-apply">Apply now</a>
-    </div>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
   </div>
 </header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <a href="./">Home</a>
+  <a href="courses">Courses</a>
+  <a href="faculty">Faculty</a>
+  <a href="admissions">Admissions</a>
+  <a href="fees">Fees</a>
+  <a href="mocks">Mocks</a>
+  <a href="results">Results</a>
+  <a href="about">About</a>
+  <a href="faq">FAQs</a>
+  <a href="contact">Contact</a>
+</nav>
 
 <main id="main">
 
 <section class="page-hero">
   <div class="wrap">
-    <p class="kicker">About the school</p>
+    <span class="eyebrow" style="color:var(--gold)">About the school</span>
     <h1>A chartered accountancy teaching institution</h1>
-    <div class="hero__rule" style="margin:1.5rem 0 0"></div>
-    <p class="page-hero__lede">ARM teaches the full route to the CA qualification — PRC, CAF, CFAP and the Strategic Case Study — with guidance and mentorship from registration to the examiner's grid.</p>
+    <p class="lede">ARM teaches the full route to the CA qualification — PRC, CAF, CFAP and the Strategic Case Study — with guidance and mentorship from registration to the examiner's grid.</p>
     <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> &nbsp;/&nbsp; About</nav>
   </div>
 </section>
 
-<section class="block">
+<section class="section section--ivory">
   <div class="wrap">
-    <div class="contact-grid">
+    <div class="cols">
       <div class="reveal">
-        <p class="kicker">What we teach</p>
-        <h2 style="margin-bottom:1.2rem">PRC, CAF, CFAP and the Case Study, plus hands-on short courses.</h2>
+        <span class="eyebrow">What we teach</span>
+        <h2 style="margin:.8rem 0 1rem">PRC, CAF, CFAP and the Case Study, plus hands-on short courses.</h2>
       </div>
       <div class="reveal" data-delay="1">
         <p>Every paper is taught by a specialist, and every mock is marked in detail so a student sees exactly where marks are won and lost. Classes run online and hybrid, and each course finishes well before the examination to leave room for revision.</p>
         <p>Merit certificates and gold medals from the Institute of Chartered Accountants of Pakistan sit alongside a testing and marking system built in-house.</p>
       </div>
     </div>
-    <div class="feat-grid" style="margin-top:clamp(2.5rem,5vw,4rem)">
-      <div class="feat reveal"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-monitor"/></svg><b>User-friendly LMS</b></div>
-      <div class="feat reveal" data-delay="1"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-users"/></svg><b>Highly qualified faculty</b></div>
-      <div class="feat reveal" data-delay="2"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-clipboard"/></svg><b>Our own testing and marking software</b></div>
-      <div class="feat reveal" data-delay="3"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-award"/></svg><b>Merit gold medals, induction session and mentorship</b></div>
-      <div class="feat reveal"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-book"/></svg><b>CFAP guidance throughout</b></div>
-      <div class="feat reveal" data-delay="1"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-building"/></svg><b>State-of-the-art campus</b></div>
-      <div class="feat reveal" data-delay="2"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-star"/></svg><b>Premium quality lectures</b></div>
-      <div class="feat reveal" data-delay="3"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-tag"/></svg><b>Education made affordable, with scholarships available</b></div>
+    <div class="grid g4" style="margin-top:3.5rem">
+      <div class="card reveal"><div class="card__icon">🖥</div><h3>User-friendly LMS</h3></div>
+      <div class="card reveal" data-delay="1"><div class="card__icon">👥</div><h3>Highly qualified faculty</h3></div>
+      <div class="card reveal" data-delay="2"><div class="card__icon">📋</div><h3>Our own testing and marking software</h3></div>
+      <div class="card reveal" data-delay="3"><div class="card__icon">🏅</div><h3>Merit gold medals, induction session and mentorship</h3></div>
+      <div class="card reveal"><div class="card__icon">📖</div><h3>CFAP guidance throughout</h3></div>
+      <div class="card reveal" data-delay="1"><div class="card__icon">🏛</div><h3>State-of-the-art campus</h3></div>
+      <div class="card reveal" data-delay="2"><div class="card__icon">⭐</div><h3>Premium quality lectures</h3></div>
+      <div class="card reveal" data-delay="3"><div class="card__icon">🎓</div><h3>Education made affordable, with scholarships available</h3></div>
     </div>
   </div>
 </section>
 
-<section class="block block--tint" id="campus">
+<section class="section section--cream" id="campus">
   <div class="wrap">
     <div class="sec-head reveal">
+      <span class="eyebrow">Campus</span>
       <h2>Inside ARM</h2>
       <p>The hall at full strength and the library where students revise. Real rooms, real classes — no stock photos.</p>
     </div>
     <div class="strip">
-      <figure class="reveal"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/photos/01-induction-session.jpeg?v=3" alt="Induction session at ARM Business School — the hall at full strength" loading="lazy"><figcaption>Induction session — the hall at full strength</figcaption></figure>
-      <figure class="reveal" data-delay="1"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/photos/08-the-library.jpeg?v=3" alt="The ARM library" loading="lazy"><figcaption>The library</figcaption></figure>
-      <figure class="reveal" data-delay="2"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/photos/09-students-working-in-the-library.jpeg?v=3" alt="Students working in the ARM library" loading="lazy"><figcaption>Students working in the library</figcaption></figure>
+      <figure class="reveal"><img src="https://arm-business-school-website.vercel.app/assets/photos/01-induction-session.jpeg?v=3" alt="Induction session at ARM Business School — the hall at full strength" loading="lazy"><figcaption>Induction session — the hall at full strength</figcaption></figure>
+      <figure class="reveal" data-delay="1"><img src="https://arm-business-school-website.vercel.app/assets/photos/08-the-library.jpeg?v=3" alt="The ARM library" loading="lazy"><figcaption>The library</figcaption></figure>
+      <figure class="reveal" data-delay="2"><img src="https://arm-business-school-website.vercel.app/assets/photos/09-students-working-in-the-library.jpeg?v=3" alt="Students working in the ARM library" loading="lazy"><figcaption>Students working in the library</figcaption></figure>
     </div>
   </div>
 </section>
 
-<section class="block" id="leader">
+<section class="section section--ivory" id="leader">
   <div class="wrap">
     <div class="sec-head reveal">
+      <span class="eyebrow">Leadership</span>
       <h2>Chief Executive Principal</h2>
       <p>Teaching led from the front — in the studio, in the classroom, and on every mock.</p>
     </div>
     <div class="leader">
       <figure class="reveal">
-        <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/ahmed-raza-mir.jpg?v=3" alt="Sir Ahmed Raza Mir — Chief Executive Principal, ARM Business School">
+        <img src="https://arm-business-school-website.vercel.app/assets/faculty/ahmed-raza-mir.jpg?v=3" alt="Sir Ahmed Raza Mir — Chief Executive Principal, ARM Business School">
         <figcaption><b>Sir Ahmed Raza Mir</b><small>Chief Executive Principal · FAR · DSR · MA · CR · BIA · CFAP-01 · CFAP-04</small></figcaption>
       </figure>
       <div class="reveal" data-delay="1">
-        <p class="pullquote light">Marks are won one working at a time. We teach the concept, drill it under timed conditions, and mark it the way the examiner will.</p>
-        <p class="pullquote-name light">Sir Ahmed Raza Mir — Chief Executive Principal</p>
+        <p class="pullquote">Marks are won one working at a time. We teach the concept, drill it under timed conditions, and mark it the way the examiner will.</p>
+        <p class="pullquote-name">Sir Ahmed Raza Mir — Chief Executive Principal</p>
         <p>Sir Ahmed Raza Mir leads teaching across seven CAF papers and two CFAP papers, and personally oversees the marking standards for law, reporting and case-study scripts.</p>
-        <div class="grid g2" style="margin-top:1.5rem">
-          <div class="card"><div class="card__body"><span class="card__tag">Teaches</span><h3 style="font-size:1.05rem">FAR · DSR · MA · CR · BIA</h3><p>Core CAF reporting, systems and costing papers.</p></div></div>
-          <div class="card"><div class="card__body"><span class="card__tag">Also leads</span><h3 style="font-size:1.05rem">CFAP-01 · CFAP-04</h3><p>Advanced reporting and business finance decisions.</p></div></div>
+        <div class="grid g2" style="margin:1.6rem 0">
+          <div class="card"><span class="eyebrow">Teaches</span><h3 style="font-size:1.1rem;margin-top:.4rem">FAR · DSR · MA · CR · BIA</h3><p>Core CAF reporting, systems and costing papers.</p></div>
+          <div class="card"><span class="eyebrow">Also leads</span><h3 style="font-size:1.1rem;margin-top:.4rem">CFAP-01 · CFAP-04</h3><p>Advanced reporting and business finance decisions.</p></div>
         </div>
-        <div class="apply-row">
-          <a class="btn" href="faculty">Meet the faculty <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
-        </div>
+        <p><a class="btn btn-ink" href="faculty">Meet the faculty <svg class="arw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="cta">
-  <div class="wrap reveal">
-    <h2>Ready to start with us?</h2>
-    <p>Fill the registration form for your level and your portal opens within 48 hours.</p>
-    <div class="cta__row">
-      <a class="btn light" href="admissions">Apply for the next session <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
-      <a class="btn" style="background:transparent;border-color:rgba(255,255,255,.6)" href="contact">Visit and reach us</a>
+<section class="section section--ivory" style="padding-top:1rem">
+  <div class="wrap">
+    <div class="cta-panel reveal">
+      <h2>Ready to start with us?</h2>
+      <p>Fill the registration form for your level and your portal opens within 48 hours.</p>
+      <div class="cta-panel__row">
+        <a class="btn btn-gold" href="admissions">Apply for the next session <svg class="arw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="contact">Visit and reach us</a>
+      </div>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="site">
+<footer class="footer">
   <div class="wrap">
-    <div class="foot-top">
+    <div class="foot-grid">
       <div>
-        <div class="foot-brand">
-          <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-        </div>
+        <div class="foot-brand"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School"></div>
         <p class="foot-motto">Learn. Lead. Succeed.</p>
         <p class="foot-tag">A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
-        <div class="social">
-          <a href="https://wa.me/923327948519" aria-label="WhatsApp"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-whatsapp"/></svg></a>
-          <a href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-mail"/></svg></a>
-          <a href="tel:+922137123083" aria-label="Phone"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-phone"/></svg></a>
+        <div class="social-row">
+          <a class="soc" href="https://wa.me/923327948519" aria-label="WhatsApp">✆</a>
+          <a class="soc" href="mailto:armbusinesschool@gmail.com" aria-label="Email">✉</a>
+          <a class="soc" href="tel:+922137123083" aria-label="Phone">☎</a>
         </div>
       </div>
-      <div><h4 class="fh">Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
-      <div><h4 class="fh">Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
-      <div><h4 class="fh">Visit and reach us</h4><ul><li>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi</li><li><a href="tel:+922137123083">021-37123083</a></li><li><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a></li><li>Monday to Saturday, 9:00 am to 5:00 pm</li></ul></div>
+      <div class="foot-col"><h4>Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
+      <div class="foot-col"><h4>Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
+      <div class="foot-col"><h4>Visit and reach us</h4><address>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi<br><a href="tel:+922137123083">021-37123083</a><br><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a><br>Monday to Saturday, 9:00 am to 5:00 pm</address></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> ARM Business School. All rights reserved.</span>
@@ -172,7 +162,7 @@
   </div>
 </footer>
 
-<button class="totop" id="totop" aria-label="Back to top"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
-<script src="js/app.js?v=3" defer></script>
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+<script src="js/app.js" defer></script>
 </body>
 </html>
