@@ -3,24 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0E1218">
 <title>Fees &amp; Policies — ARM Business School</title>
 <meta name="description" content="PRC, CAF and refresher fees for the August 2026 attempt, an interactive fee calculator, and the official fee policies.">
 <link rel="icon" type="image/png" href="https://arm-business-school-website.vercel.app/assets/logo-green.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=12">
+<link rel="stylesheet" href="css/luxe.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<header class="masthead" id="masthead">
-  <div class="wrap masthead__bar">
+<header class="nav" id="nav">
+  <div class="wrap nav__bar">
     <a class="brand" href="./" aria-label="ARM Business School — home">
-      <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
+      <img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School">
+      <span class="brand__name">ARM Business School<small>LEARN · LEAD · SUCCEED</small></span>
     </a>
-    <nav class="nav" aria-label="Primary">
+    <nav class="navlinks" aria-label="Primary">
       <a href="./">Home</a>
       <a href="courses">Courses</a>
       <a href="faculty">Faculty</a>
@@ -32,71 +30,63 @@
       <a href="faq">FAQs</a>
       <a href="contact">Contact</a>
     </nav>
-    <div class="mast-actions">
-      <a class="btn gold" href="admissions">Apply now</a>
-      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
-    </div>
-  </div>
-  <div class="mobile-nav" id="mobileNav">
-    <div class="wrap">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq">FAQs</a>
-      <a href="contact">Contact</a>
-      <a href="admissions" class="m-apply">Apply now</a>
-    </div>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
   </div>
 </header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <a href="./">Home</a>
+  <a href="courses">Courses</a>
+  <a href="faculty">Faculty</a>
+  <a href="admissions">Admissions</a>
+  <a href="fees">Fees</a>
+  <a href="mocks">Mocks</a>
+  <a href="results">Results</a>
+  <a href="about">About</a>
+  <a href="faq">FAQs</a>
+  <a href="contact">Contact</a>
+</nav>
 
 <main id="main">
 
 <section class="page-hero">
   <div class="wrap">
-    <p class="kicker">Fees &amp; policies</p>
+    <span class="eyebrow" style="color:var(--gold)">Fees &amp; policies</span>
     <h1>Fees for the August 2026 attempt</h1>
-    <div class="hero__rule" style="margin:1.5rem 0 0"></div>
-    <p class="page-hero__lede">PRC and CAF fees are shown below. CFAP and Strategic Case Study fees are shared with your registration form. The policies apply to every student.</p>
+    <p class="lede">PRC and CAF fees are shown below. CFAP and Strategic Case Study fees are shared with your registration form. The policies apply to every student.</p>
     <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> &nbsp;/&nbsp; Fees</nav>
   </div>
 </section>
 
-<section class="block">
+<section class="section section--ivory">
   <div class="wrap">
     <div class="sec-head reveal">
+      <span class="eyebrow">Schedule</span>
       <h2>Fee table</h2>
       <p>The fee is payable in two equal installments only.</p>
     </div>
-    <div class="contact-grid">
-      <div class="fees reveal">
-        <div class="fee"><span class="it">PRC per subject</span><span class="amt">Rs 20,000</span></div>
-        <div class="fee"><span class="it">PRC one-time admission fee</span><span class="amt">Rs 10,000</span></div>
-        <div class="fee"><span class="it">English Communication Skills (with PRC)</span><span class="amt">Rs 15,000</span></div>
-        <div class="fee"><span class="it">CAF per subject — online</span><span class="amt">Rs 18,000</span></div>
-        <div class="fee"><span class="it">CAF per subject — hybrid</span><span class="amt">Rs 23,000</span></div>
-        <div class="fee"><span class="it">CAF-04 — Business Law portion only</span><span class="amt">Rs 10,000</span></div>
-        <div class="fee"><span class="it">CAF-04 — Company Law portion only</span><span class="amt">Rs 10,000</span></div>
-        <div class="fee"><span class="it">HOC-01 Presentation &amp; Personal Effectiveness</span><span class="amt">Rs 10,000</span></div>
-        <div class="fee"><span class="it">HOC-02 MS Office for Business</span><span class="amt">Rs 10,000</span></div>
-        <div class="fee"><span class="it">HOC-03 English Communication Skills</span><span class="amt">On request</span></div>
-        <div class="fee"><span class="it">Refresher* from batch start — own students</span><span class="amt">Rs 8,000</span></div>
-        <div class="fee"><span class="it">Refresher* from batch start — outsiders</span><span class="amt">Rs 10,000</span></div>
-        <div class="fee"><span class="it">Refresher* after the result — own students</span><span class="amt">Rs 6,000</span></div>
-        <div class="fee"><span class="it">Refresher* after the result — outsiders</span><span class="amt">Rs 8,000</span></div>
-        <div class="fees__note">* Refresher: a student repeating the same subject. Customised students are treated as outsiders for refresher fees.</div>
+    <div class="cols">
+      <div class="reveal">
+        <div class="fee-row"><span class="it">PRC per subject</span><span class="amt">Rs 20,000</span></div>
+        <div class="fee-row"><span class="it">PRC one-time admission fee</span><span class="amt">Rs 10,000</span></div>
+        <div class="fee-row"><span class="it">English Communication Skills (with PRC)</span><span class="amt">Rs 15,000</span></div>
+        <div class="fee-row"><span class="it">CAF per subject — online</span><span class="amt">Rs 18,000</span></div>
+        <div class="fee-row"><span class="it">CAF per subject — hybrid</span><span class="amt">Rs 23,000</span></div>
+        <div class="fee-row"><span class="it">CAF-04 — Business Law portion only</span><span class="amt">Rs 10,000</span></div>
+        <div class="fee-row"><span class="it">CAF-04 — Company Law portion only</span><span class="amt">Rs 10,000</span></div>
+        <div class="fee-row"><span class="it">HOC-01 Presentation &amp; Personal Effectiveness</span><span class="amt">Rs 10,000</span></div>
+        <div class="fee-row"><span class="it">HOC-02 MS Office for Business</span><span class="amt">Rs 10,000</span></div>
+        <div class="fee-row"><span class="it">HOC-03 English Communication Skills</span><span class="amt">On request</span></div>
+        <div class="fee-row"><span class="it">Refresher* from batch start — own students</span><span class="amt">Rs 8,000</span></div>
+        <div class="fee-row"><span class="it">Refresher* from batch start — outsiders</span><span class="amt">Rs 10,000</span></div>
+        <div class="fee-row"><span class="it">Refresher* after the result — own students</span><span class="amt">Rs 6,000</span></div>
+        <div class="fee-row"><span class="it">Refresher* after the result — outsiders</span><span class="amt">Rs 8,000</span></div>
+        <p class="fees-note">* Refresher: a student repeating the same subject. Customised students are treated as outsiders for refresher fees.</p>
       </div>
-      <div class="reveal" data-delay="1" id="pay">
-        <div class="calc" id="feeCalc">
-          <div class="calc-head">
-            <p class="eyebrow">Pay your fee</p>
-            <h3>Work out your fee</h3>
-            <p>Tick the subjects you want and choose your mode. The total updates as you tick, and shows what each of the two installments comes to.</p>
-          </div>
+      <div class="reveal" data-delay="1" id="pay" style="scroll-margin-top:6rem">
+        <div class="form-card" id="feeCalc">
+          <span class="eyebrow">Pay your fee</span>
+          <h3 style="margin:.6rem 0">Work out your fee</h3>
+          <p class="formnote" style="margin-bottom:1.2rem">Tick the subjects you want and choose your mode. The total updates as you tick, and shows what each of the two installments comes to.</p>
           <div class="mode-toggle" role="radiogroup" aria-label="Mode">
             <label><input type="radio" name="mode" value="online" checked> Online</label>
             <label><input type="radio" name="mode" value="hybrid"> Hybrid</label>
@@ -116,7 +106,7 @@
           <div class="calc-total">
             <div class="t"><small>Total</small><b id="calcTotal">Rs 0</b></div>
             <div class="i" id="calcInst">—</div>
-            <a class="btn gold" href="admissions">Register with this selection</a>
+            <a class="btn btn-gold" href="admissions">Register with this selection</a>
           </div>
         </div>
         <p class="formnote" style="margin-top:1rem">Indicative only. The figure on your registration form is the one that applies.</p>
@@ -125,21 +115,22 @@
   </div>
 </section>
 
-<section class="block block--tint">
+<section class="section section--cream">
   <div class="wrap">
     <div class="sec-head reveal">
+      <span class="eyebrow">Official</span>
       <h2>Policies</h2>
       <p>Our official policies.</p>
     </div>
-    <div class="contact-grid">
+    <div class="cols">
       <div class="reveal">
-        <div class="policy" style="border-top:0"><h4>Two installments only</h4><p>The course fee is payable in two equal installments. More than two installments are not permitted.</p></div>
+        <div class="policy"><h4>Two installments only</h4><p>The course fee is payable in two equal installments. More than two installments are not permitted.</p></div>
         <div class="policy"><h4>Repeater fees</h4><p>Installments are not available on repeater fees, and no discount is offered on repeater fees under any circumstances.</p></div>
         <div class="policy"><h4>Refresher students</h4><p>A refresher joining from the start of the batch pays Rs 8,000 as our own student and Rs 10,000 as an outsider. Joining after the result, it is Rs 6,000 and Rs 8,000. Customised students do not fall in the own-student category and are treated as outsider refreshers.</p></div>
         <div class="policy"><h4>Scholarships and concessions</h4><p>Scholarships are available. Concessions are considered strictly on genuine financial hardship: submit your source of income, the latest payslip where applicable, the last three months' electricity bills, and the total number of family members. All requests go to management review; submitting the documents does not guarantee approval.</p></div>
       </div>
       <div class="reveal" data-delay="1">
-        <div class="policy" style="border-top:0"><h4>No comparison-based discounts</h4><p>Concessions are assessed individually and are never granted on the basis of what another student was charged.</p></div>
+        <div class="policy"><h4>No comparison-based discounts</h4><p>Concessions are assessed individually and are never granted on the basis of what another student was charged.</p></div>
         <div class="policy"><h4>Freezing a subject</h4><p>A freeze option is available after the result for students who have paid full or partial fees, provided the request is submitted within the announced deadline. Requests after the deadline are not entertained.</p></div>
         <div class="policy"><h4>Outstanding dues</h4><p>Portal access is deactivated while dues are outstanding. Clear the payment and complete the required form to restore access.</p></div>
       </div>
@@ -147,37 +138,37 @@
   </div>
 </section>
 
-<section class="cta">
-  <div class="wrap reveal">
-    <h2>Ready to register?</h2>
-    <p>Fill the form for your level, pay the first installment, and your portal opens within 48 hours.</p>
-    <div class="cta__row">
-      <a class="btn light" href="admissions">Go to admissions <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
-      <a class="btn" style="background:transparent;border-color:rgba(255,255,255,.6)" href="faq">Read the FAQs</a>
+<section class="section section--ivory" style="padding-top:1rem">
+  <div class="wrap">
+    <div class="cta-panel reveal">
+      <h2>Ready to register?</h2>
+      <p>Fill the form for your level, pay the first installment, and your portal opens within 48 hours.</p>
+      <div class="cta-panel__row">
+        <a class="btn btn-gold" href="admissions">Go to admissions <svg class="arw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="faq">Read the FAQs</a>
+      </div>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="site">
+<footer class="footer">
   <div class="wrap">
-    <div class="foot-top">
+    <div class="foot-grid">
       <div>
-        <div class="foot-brand">
-          <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-        </div>
+        <div class="foot-brand"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School"></div>
         <p class="foot-motto">Learn. Lead. Succeed.</p>
         <p class="foot-tag">A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
-        <div class="social">
-          <a href="https://wa.me/923327948519" aria-label="WhatsApp"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-whatsapp"/></svg></a>
-          <a href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-mail"/></svg></a>
-          <a href="tel:+922137123083" aria-label="Phone"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-phone"/></svg></a>
+        <div class="social-row">
+          <a class="soc" href="https://wa.me/923327948519" aria-label="WhatsApp">✆</a>
+          <a class="soc" href="mailto:armbusinesschool@gmail.com" aria-label="Email">✉</a>
+          <a class="soc" href="tel:+922137123083" aria-label="Phone">☎</a>
         </div>
       </div>
-      <div><h4 class="fh">Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
-      <div><h4 class="fh">Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
-      <div><h4 class="fh">Visit and reach us</h4><ul><li>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi</li><li><a href="tel:+922137123083">021-37123083</a></li><li><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a></li><li>Monday to Saturday, 9:00 am to 5:00 pm</li></ul></div>
+      <div class="foot-col"><h4>Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
+      <div class="foot-col"><h4>Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
+      <div class="foot-col"><h4>Visit and reach us</h4><address>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi<br><a href="tel:+922137123083">021-37123083</a><br><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a><br>Monday to Saturday, 9:00 am to 5:00 pm</address></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> ARM Business School. All rights reserved.</span>
@@ -186,7 +177,7 @@
   </div>
 </footer>
 
-<button class="totop" id="totop" aria-label="Back to top"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
-<script src="js/app.js?v=3" defer></script>
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+<script src="js/app.js" defer></script>
 </body>
 </html>
