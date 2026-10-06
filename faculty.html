@@ -7,134 +7,217 @@
 <title>Faculty — ARM Business School</title>
 <meta name="description" content="Every paper at ARM Business School, listed under the person who teaches it — plus the teaching assistants.">
 <link rel="icon" type="image/png" href="https://arm-business-school-website.vercel.app/assets/logo-green.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=12">
+<link rel="stylesheet" href="css/clay.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<header class="masthead" id="masthead">
-  <div class="wrap masthead__bar">
-    <a class="brand" href="./" aria-label="ARM Business School — home">
-      <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-    </a>
-    <nav class="nav" aria-label="Primary">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty" class="active">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq">FAQs</a>
-      <a href="contact">Contact</a>
-    </nav>
-    <div class="mast-actions">
-      <a class="btn gold" href="admissions">Apply now</a>
-      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
-    </div>
-  </div>
-  <div class="mobile-nav" id="mobileNav">
-    <div class="wrap">
-      <a href="./">Home</a>
-      <a href="courses">Courses</a>
-      <a href="faculty">Faculty</a>
-      <a href="admissions">Admissions</a>
-      <a href="fees">Fees</a>
-      <a href="mocks">Mocks</a>
-      <a href="results">Results</a>
-      <a href="about">About</a>
-      <a href="faq">FAQs</a>
-      <a href="contact">Contact</a>
-      <a href="admissions" class="m-apply">Apply now</a>
-    </div>
+<header class="navfloat">
+  <a class="brand" href="./" aria-label="ARM Business School — home">
+    <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
+    <span>ARM Business School</span>
+  </a>
+  <nav class="navlinks" aria-label="Primary">
+    <a href="./">Home</a>
+    <a href="courses">Courses</a>
+    <a href="faculty" class="active">Faculty</a>
+    <a href="admissions">Admissions</a>
+    <a href="fees">Fees</a>
+    <a href="mocks">Mocks</a>
+    <a href="results">Results</a>
+    <a href="about">About</a>
+    <a href="faq">FAQs</a>
+    <a href="contact">Contact</a>
+  </nav>
+  <div class="nav-cta">
+    <a class="btn btn-primary btn-sm" href="admissions">Apply Now</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
   </div>
 </header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <a href="./">Home</a>
+  <a href="courses">Courses</a>
+  <a href="faculty">Faculty</a>
+  <a href="admissions">Admissions</a>
+  <a href="fees">Fees</a>
+  <a href="mocks">Mocks</a>
+  <a href="results">Results</a>
+  <a href="about">About</a>
+  <a href="faq">FAQs</a>
+  <a href="contact">Contact</a>
+  <a href="admissions"><strong>Apply Now →</strong></a>
+</nav>
 
 <main id="main">
 
 <section class="page-hero">
   <div class="wrap">
-    <p class="kicker">Faculty</p>
+    <span class="badge"><span class="dot"></span>Faculty</span>
     <h1>Taught by specialists</h1>
-    <div class="hero__rule" style="margin:1.5rem 0 0"></div>
-    <p class="page-hero__lede">Every paper is listed under the person who teaches it. Teaching assistants are shown with the papers they cover.</p>
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> &nbsp;/&nbsp; Faculty</nav>
+    <p class="lede">Every paper is listed under the person who teaches it. Teaching assistants are shown with the papers they cover.</p>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> / Faculty</nav>
   </div>
 </section>
 
-<section class="block">
+<section class="section section--white">
   <div class="wrap">
     <div class="grid g4">
-      <article class="person reveal"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/ahmed-raza-mir.jpg?v=3" alt="Sir Ahmed Raza Mir" loading="lazy"></div><div class="person__body"><h3>Sir Ahmed Raza Mir</h3><div class="role">Chief Executive Principal</div><div class="papers">FAR · DSR · MA · CR · BIA · CFAP-01 · CFAP-04</div></div></article>
-      <article class="person reveal" data-delay="1"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/aakash-kumar.jpg?v=3" alt="Sir Aakash Kumar" loading="lazy"></div><div class="person__body"><h3>Sir Aakash Kumar</h3><div class="role">Faculty</div><div class="papers">FAR · CR · Audit and Assurance · CFAP-06</div></div></article>
-      <article class="person reveal" data-delay="2"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/abdullah-maqsood-chaudhary.jpg?v=3" alt="Sir Abdullah Maqsood Chaudhary" loading="lazy"></div><div class="person__body"><h3>Sir Abdullah Maqsood Chaudhary</h3><div class="role">Faculty</div><div class="papers">Taxation · CFAP-05 Tax Practices and Planning</div></div></article>
-      <article class="person reveal" data-delay="3"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/hudaid-wasi.jpg?v=3" alt="Sir Hudaid Wasi" loading="lazy"></div><div class="person__body"><h3>Sir Hudaid Wasi</h3><div class="role">Faculty</div><div class="papers">PRC-1 · Business Law · CFAP-02</div></div></article>
-      <article class="person reveal"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/m-saad-altaf.jpg?v=3" alt="Sir M. Saad Altaf" loading="lazy"></div><div class="person__body"><h3>Sir M. Saad Altaf</h3><div class="role">Faculty</div><div class="papers">PRC-3 (business) · CFAP-03</div></div></article>
-      <article class="person reveal" data-delay="1"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/naeem-ullah.jpg?v=3" alt="Sir Naeem Ullah" loading="lazy"></div><div class="person__body"><h3>Sir Naeem Ullah</h3><div class="role">Faculty</div><div class="papers">PRC-2 Quantitative Analysis for Business</div></div></article>
-      <article class="person reveal" data-delay="2"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/zeeshan-mumtaz.jpg?v=3" alt="Sir Zeeshan Mumtaz" loading="lazy"></div><div class="person__body"><h3>Sir Zeeshan Mumtaz</h3><div class="role">Faculty</div><div class="papers">PRC-3 (economics)</div></div></article>
-      <article class="person reveal" data-delay="3"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/syed-huzaifa.jpg?v=3" alt="Sir Syed Huzaifa" loading="lazy"></div><div class="person__body"><h3>Sir Syed Huzaifa</h3><div class="role">Faculty</div><div class="papers">PRC-1 Fundamentals of Accounting</div></div></article>
-      <article class="person reveal"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/mustafa-tanveer.jpg?v=3" alt="Sir Mustafa Tanveer" loading="lazy"></div><div class="person__body"><h3>Sir Mustafa Tanveer</h3><div class="role">Faculty</div><div class="papers">PRC-2 Quantitative Analysis for Business</div></div></article>
-      <article class="person reveal" data-delay="1"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/saad-bin-sohail.jpg?v=3" alt="Sir Saad Bin Sohail" loading="lazy"></div><div class="person__body"><h3>Sir Saad Bin Sohail</h3><div class="role">Faculty</div><div class="papers">HOC-01 Presentation and Personal Effectiveness</div></div></article>
-      <article class="person reveal" data-delay="2"><div class="person__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/abdul-basit-khan.jpg?v=3" alt="Sir Abdul Basit Khan" loading="lazy"></div><div class="person__body"><h3>Sir Abdul Basit Khan</h3><div class="role">Faculty</div><div class="papers">HOC-03 English Communication Skills</div></div></article>
-      <article class="card reveal" data-delay="3" style="background:var(--black);border-top-color:var(--gold)"><div class="card__body"><span class="card__icon on-dark"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-users"/></svg></span><span class="card__tag" style="color:var(--gold-light)">Support</span><h3 style="color:#fff">Teaching assistants</h3><p style="color:#c9d4cb">Eight TAs cover the core papers alongside the faculty — scroll across to meet them.</p><a class="card__link" style="color:var(--gold-light)" href="#tas">Meet the TAs <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a></div></article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/ahmed-raza-mir.jpg?v=3" alt="Sir Ahmed Raza Mir" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Ahmed Raza Mir</h3><div class="role">Chief Executive Principal</div><div class="papers">FAR · DSR · MA · CR · BIA · CFAP-01 · CFAP-04</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/aakash-kumar.jpg?v=3" alt="Sir Aakash Kumar" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Aakash Kumar</h3><div class="role">Faculty</div><div class="papers">FAR · CR · Audit and Assurance · CFAP-06</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/abdullah-maqsood-chaudhary.jpg?v=3" alt="Sir Abdullah Maqsood Chaudhary" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Abdullah Maqsood Chaudhary</h3><div class="role">Faculty</div><div class="papers">Taxation · CFAP-05 Tax Practices and Planning</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/hudaid-wasi.jpg?v=3" alt="Sir Hudaid Wasi" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Hudaid Wasi</h3><div class="role">Faculty</div><div class="papers">PRC-1 · Business Law · CFAP-02</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/m-saad-altaf.jpg?v=3" alt="Sir M. Saad Altaf" loading="lazy"></div>
+        <div class="person__body"><h3>Sir M. Saad Altaf</h3><div class="role">Faculty</div><div class="papers">PRC-3 (business) · CFAP-03</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/naeem-ullah.jpg?v=3" alt="Sir Naeem Ullah" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Naeem Ullah</h3><div class="role">Faculty</div><div class="papers">PRC-2 Quantitative Analysis for Business</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/zeeshan-mumtaz.jpg?v=3" alt="Sir Zeeshan Mumtaz" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Zeeshan Mumtaz</h3><div class="role">Faculty</div><div class="papers">PRC-3 (economics)</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/syed-huzaifa.jpg?v=3" alt="Sir Syed Huzaifa" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Syed Huzaifa</h3><div class="role">Faculty</div><div class="papers">PRC-1 Fundamentals of Accounting</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/mustafa-tanveer.jpg?v=3" alt="Sir Mustafa Tanveer" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Mustafa Tanveer</h3><div class="role">Faculty</div><div class="papers">PRC-2 Quantitative Analysis for Business</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/saad-bin-sohail.jpg?v=3" alt="Sir Saad Bin Sohail" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Saad Bin Sohail</h3><div class="role">Faculty</div><div class="papers">HOC-01 Presentation and Personal Effectiveness</div></div>
+      </article>
+      <article class="person reveal">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/faculty/abdul-basit-khan.jpg?v=3" alt="Sir Abdul Basit Khan" loading="lazy"></div>
+        <div class="person__body"><h3>Sir Abdul Basit Khan</h3><div class="role">Faculty</div><div class="papers">HOC-03 English Communication Skills</div></div>
+      </article>
+      <article class="clay-card reveal" id="tas">
+        <div class="tile tile--coral">👥</div>
+        <span class="tagline">Support</span>
+        <h3>Teaching assistants</h3>
+        <p>Eight TAs cover the core papers alongside the faculty — scroll across to meet them.</p>
+        <a class="card-link" href="#ta-rail">Meet the TAs →</a>
+      </article>
     </div>
-    <div id="tas"></div>
-    <div class="sec-head reveal" style="margin-top:clamp(2.5rem,5vw,4rem)">
-      <h2 style="font-size:clamp(1.5rem,2.6vw,2.2rem)">Teaching assistants</h2>
+
+    <div class="sec-head reveal" style="margin-top:3.5rem">
+      <span class="badge"><span class="dot"></span>Support team</span>
+      <h2>Teaching assistants</h2>
       <p>Shown with the papers they cover. Scroll sideways to see the whole team.</p>
-      <div class="rail-btns">
-        <button class="rail-btn prev" data-railbtn="taRail" aria-label="Scroll team backwards"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
-        <button class="rail-btn" data-railbtn="taRail" aria-label="Scroll team forwards"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
-      </div>
     </div>
-    <div class="ta-rail reveal" id="taRail">
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/muhammad-ali-khalid.jpg?v=3" alt="Muhammad Ali Khalid" loading="lazy"></div><div class="ta__body"><h3>Muhammad Ali Khalid</h3><div class="role">Teaching Assistant</div><div class="papers">DSR · Corporate Reporting</div></div></article>
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/muaaz-asif.jpg?v=3" alt="Muaaz Asif" loading="lazy"></div><div class="ta__body"><h3>Muaaz Asif</h3><div class="role">Teaching Assistant</div><div class="papers">FAR · Corporate Reporting</div></div></article>
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/mirza-haris.jpg?v=3" alt="Mirza Haris" loading="lazy"></div><div class="ta__body"><h3>Mirza Haris</h3><div class="role">Teaching Assistant</div><div class="papers">CFAP-01 · CFAP-04</div></div></article>
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/hamza-ali.jpg?v=3" alt="Hamza Ali" loading="lazy"></div><div class="ta__body"><h3>Hamza Ali</h3><div class="role">Teaching Assistant</div><div class="papers">BIA · Management Accounting</div></div></article>
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/ali-waris.jpg?v=3" alt="Ali Waris" loading="lazy"></div><div class="ta__body"><h3>Ali Waris</h3><div class="role">Teaching Assistant</div><div class="papers">Taxation · CFAP-01 Gold Medalist</div></div></article>
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/kanwal-zafran.jpg?v=3" alt="Kanwal Zafran" loading="lazy"></div><div class="ta__body"><h3>Kanwal Zafran</h3><div class="role">ARM Team</div><div class="papers">Student support</div></div></article>
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/sameer-ahmed.jpg?v=3" alt="Sameer Ahmed" loading="lazy"></div><div class="ta__body"><h3>Sameer Ahmed</h3><div class="role">ARM Team</div><div class="papers">Student support</div></div></article>
-      <article class="ta"><div class="ta__photo"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/saleh.jpg?v=3" alt="Saleh" loading="lazy"></div><div class="ta__body"><h3>Saleh</h3><div class="role">ARM Team</div><div class="papers">Student support</div></div></article>
+    <div class="reveal" id="ta-rail" style="display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,290px);gap:1.2rem;overflow-x:auto;padding:.4rem .2rem 1.2rem">
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/muhammad-ali-khalid.jpg?v=3" alt="Muhammad Ali Khalid" loading="lazy"></div>
+        <div class="person__body"><h3>Muhammad Ali Khalid</h3><div class="role">Teaching Assistant</div><div class="papers">DSR · Corporate Reporting</div></div>
+      </article>
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/muaaz-asif.jpg?v=3" alt="Muaaz Asif" loading="lazy"></div>
+        <div class="person__body"><h3>Muaaz Asif</h3><div class="role">Teaching Assistant</div><div class="papers">FAR · Corporate Reporting</div></div>
+      </article>
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/mirza-haris.jpg?v=3" alt="Mirza Haris" loading="lazy"></div>
+        <div class="person__body"><h3>Mirza Haris</h3><div class="role">Teaching Assistant</div><div class="papers">CFAP-01 · CFAP-04</div></div>
+      </article>
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/hamza-ali.jpg?v=3" alt="Hamza Ali" loading="lazy"></div>
+        <div class="person__body"><h3>Hamza Ali</h3><div class="role">Teaching Assistant</div><div class="papers">BIA · Management Accounting</div></div>
+      </article>
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/ali-waris.jpg?v=3" alt="Ali Waris" loading="lazy"></div>
+        <div class="person__body"><h3>Ali Waris</h3><div class="role">Teaching Assistant</div><div class="papers">Taxation · CFAP-01 Gold Medalist</div></div>
+      </article>
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/kanwal-zafran.jpg?v=3" alt="Kanwal Zafran" loading="lazy"></div>
+        <div class="person__body"><h3>Kanwal Zafran</h3><div class="role">ARM Team</div><div class="papers">Student support</div></div>
+      </article>
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/sameer-ahmed.jpg?v=3" alt="Sameer Ahmed" loading="lazy"></div>
+        <div class="person__body"><h3>Sameer Ahmed</h3><div class="role">ARM Team</div><div class="papers">Student support</div></div>
+      </article>
+      <article class="person">
+        <div class="person__photo"><img src="https://arm-business-school-website.vercel.app/assets/team/saleh.jpg?v=3" alt="Saleh" loading="lazy"></div>
+        <div class="person__body"><h3>Saleh</h3><div class="role">ARM Team</div><div class="papers">Student support</div></div>
+      </article>
     </div>
   </div>
 </section>
 
-<section class="cta">
-  <div class="wrap reveal">
-    <h2>Learn from them directly</h2>
-    <p>Register for your level and join their next live session.</p>
-    <div class="cta__row">
-      <a class="btn light" href="admissions">Apply for the next session <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
-      <a class="btn" style="background:transparent;border-color:rgba(255,255,255,.6)" href="courses">Browse courses</a>
+<section class="cta-band">
+  <div class="wrap">
+    <div class="cta-card reveal">
+      <h2>Learn from them directly</h2>
+      <p>Register for your level and join their next live session.</p>
+      <div class="cta-card__row">
+        <a class="btn btn-primary" href="admissions">Apply for the next session</a>
+        <a class="btn btn-secondary" href="courses">Browse courses</a>
+      </div>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="site">
+<footer class="footer">
   <div class="wrap">
-    <div class="foot-top">
-      <div>
-        <div class="foot-brand">
-          <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
-        </div>
-        <p class="foot-motto">Learn. Lead. Succeed.</p>
-        <p class="foot-tag">A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
-        <div class="social">
-          <a href="https://wa.me/923327948519" aria-label="WhatsApp"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-whatsapp"/></svg></a>
-          <a href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-mail"/></svg></a>
-          <a href="tel:+922137123083" aria-label="Phone"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-phone"/></svg></a>
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="./" aria-label="ARM Business School — home">
+          <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
+          <span>ARM Business School</span>
+        </a>
+        <p>A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
+        <p><strong>Learn. Lead. Succeed.</strong></p>
+        <div class="social-row">
+          <a class="soc" href="https://wa.me/923327948519" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+          <a class="soc" href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+          <a class="soc" href="tel:+922137123083" aria-label="Phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
         </div>
       </div>
-      <div><h4 class="fh">Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
-      <div><h4 class="fh">Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
-      <div><h4 class="fh">Visit and reach us</h4><ul><li>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi</li><li><a href="tel:+922137123083">021-37123083</a></li><li><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a></li><li>Monday to Saturday, 9:00 am to 5:00 pm</li></ul></div>
+      <div class="foot-col">
+        <h4>Courses</h4>
+        <ul>
+          <li><a href="courses.html#prc">PRC</a></li>
+          <li><a href="courses.html#caf">CAF</a></li>
+          <li><a href="courses.html#cfap">CFAP</a></li>
+          <li><a href="courses.html#scs">Strategic Case Study</a></li>
+          <li><a href="courses.html#hoc">Hands-on Courses</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="admissions">Admissions</a></li>
+          <li><a href="fees">Fees</a></li>
+          <li><a href="mocks">Testing</a></li>
+          <li><a href="roadmap">Roadmap</a></li>
+          <li><a href="faq">FAQs</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Visit</h4>
+        <address>
+          Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi<br>
+          <a href="tel:+922137123083">021-37123083</a><br>
+          <a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a><br>
+          Monday to Saturday, 9:00 am to 5:00 pm
+        </address>
+      </div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> ARM Business School. All rights reserved.</span>
@@ -143,7 +226,7 @@
   </div>
 </footer>
 
-<button class="totop" id="totop" aria-label="Back to top"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
-<script src="js/app.js?v=3" defer></script>
+<button class="totop" id="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script src="js/app.js" defer></script>
 </body>
 </html>
