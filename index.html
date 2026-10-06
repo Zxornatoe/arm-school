@@ -7,155 +7,176 @@
 <title>ARM Business School — Where Chartered Accountants Are Made</title>
 <meta name="description" content="ARM Business School is a chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study, with weekly mocks marked to the ICAP standard.">
 <link rel="icon" type="image/png" href="https://arm-business-school-website.vercel.app/assets/logo-green.png">
-<link rel="stylesheet" href="css/clay.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=12">
+<noscript><style>.reveal{opacity:1!important;transform:none!important}.strip figure.reveal{clip-path:none!important}.sec-head.reveal h2::after{transform:none!important}</style></noscript>
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<header class="navfloat">
-  <a class="brand" href="./" aria-label="ARM Business School — home">
-    <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
-    <span>ARM Business School</span>
-  </a>
-  <nav class="navlinks" aria-label="Primary">
-    <a href="./" class="active">Home</a>
-    <a href="courses">Courses</a>
-    <a href="faculty">Faculty</a>
-    <a href="admissions">Admissions</a>
-    <a href="fees">Fees</a>
-    <a href="mocks">Mocks</a>
-    <a href="results">Results</a>
-    <a href="about">About</a>
-    <a href="faq">FAQs</a>
-    <a href="contact">Contact</a>
-  </nav>
-  <div class="nav-cta">
-    <a class="btn btn-primary btn-sm" href="admissions">Apply Now</a>
-    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
+<header class="masthead" id="masthead">
+  <div class="wrap masthead__bar">
+    <a class="brand" href="./" aria-label="ARM Business School — home">
+      <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="./" class="active">Home</a>
+      <a href="courses">Courses</a>
+      <a href="faculty">Faculty</a>
+      <a href="admissions">Admissions</a>
+      <a href="fees">Fees</a>
+      <a href="mocks">Mocks</a>
+      <a href="results">Results</a>
+      <a href="about">About</a>
+      <a href="faq">FAQs</a>
+      <a href="contact">Contact</a>
+    </nav>
+    <div class="mast-actions">
+      <a class="btn gold" href="admissions">Apply now</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <div class="wrap">
+      <a href="./">Home</a>
+      <a href="courses">Courses</a>
+      <a href="faculty">Faculty</a>
+      <a href="admissions">Admissions</a>
+      <a href="fees">Fees</a>
+      <a href="mocks">Mocks</a>
+      <a href="results">Results</a>
+      <a href="about">About</a>
+      <a href="faq">FAQs</a>
+      <a href="contact">Contact</a>
+      <a href="admissions" class="m-apply">Apply now</a>
+    </div>
   </div>
 </header>
-<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
-  <a href="./">Home</a>
-  <a href="courses">Courses</a>
-  <a href="faculty">Faculty</a>
-  <a href="admissions">Admissions</a>
-  <a href="fees">Fees</a>
-  <a href="mocks">Mocks</a>
-  <a href="results">Results</a>
-  <a href="about">About</a>
-  <a href="faq">FAQs</a>
-  <a href="contact">Contact</a>
-  <a href="admissions"><strong>Apply Now →</strong></a>
-</nav>
 
 <main id="main">
 
-<section class="hero">
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__bg">
+    <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/photos/01-induction-session.jpeg?v=3" alt="ARM Business School induction session — a real classroom full of CA students">
+  </div>
+  <div class="wrap hero__inner">
+    <span class="hero__badge">PRC · CAF · CFAP · Strategic Case Study</span>
+    <h1>Where <em>chartered accountants</em> are made.</h1>
+    <div class="hero__rule" aria-hidden="true"></div>
+    <p class="hero__lede">Online and hybrid classes for every level of the CA qualification, with weekly mocks marked question by question to the ICAP standard.</p>
+    <div class="hero__cta">
+      <a class="btn light" href="admissions">Apply for the next session <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      <a class="btn" style="background:transparent;border-color:rgba(227,192,120,.75);color:#E3C078" href="courses">See courses</a>
+    </div>
+    <p class="hero__note">Portal access is granted within 48 hours of your registration form being verified.</p>
+  </div>
+</section>
+
+<div class="ribbon" aria-hidden="true">
+  <div class="wrap ribbon__track">
+    <span>Highly qualified faculty &nbsp;·&nbsp; Mocks marked like the examiner &nbsp;·&nbsp; Merit gold medals &nbsp;·&nbsp; Online &amp; hybrid &nbsp;·&nbsp; Learn. Lead. Succeed. &nbsp;·&nbsp; Highly qualified faculty &nbsp;·&nbsp; Mocks marked like the examiner &nbsp;·&nbsp; Merit gold medals &nbsp;·&nbsp; Online &amp; hybrid &nbsp;·&nbsp; Learn. Lead. Succeed. &nbsp;·&nbsp;</span>
+  </div>
+</div>
+
+<!-- ABOUT TEASER -->
+<section class="block" id="about">
   <div class="wrap">
-    <div class="hero__grid">
-      <div>
-        <span class="badge"><span class="dot"></span>PRC · CAF · CFAP · Strategic Case Study</span>
-        <h1>Where <span class="hl">chartered accountants</span> are made.</h1>
-        <p class="hero__lede">Online and hybrid classes for every level of the CA qualification, with weekly mocks marked question by question to the ICAP standard.</p>
-        <div class="hero__cta">
-          <a class="btn btn-primary" href="admissions">Apply for the next session</a>
-          <a class="btn btn-secondary" href="courses">See courses</a>
-        </div>
-        <p class="formnote">Portal access is granted within 48 hours of your registration form being verified.</p>
-        <div class="hero__stats reveal">
-          <div class="hstat"><b>8</b><span>CAF papers taught, in two groups</span></div>
-          <div class="hstat"><b class="hl-y">62</b><span>Mocks per CAF session across the papers</span></div>
-          <div class="hstat"><b>48 hrs</b><span>From verified registration to portal access</span></div>
-          <div class="hstat"><b>1–1.5 mo</b><span>Course finishes before the exam, leaving room for revision</span></div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="kicker">About the school</p>
+        <h2 style="margin-bottom:1.2rem">A chartered accountancy teaching institution.</h2>
+        <p class="lede">ARM teaches the full route to the CA qualification — PRC, CAF, CFAP and the Strategic Case Study — alongside short hands-on courses, with guidance and mentorship from registration to the examiner's grid.</p>
+        <div class="apply-row">
+          <a class="btn ghost" href="about">More about us <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
         </div>
       </div>
-      <div class="clay-stage reveal">
-        <div class="course-card">
-          <div class="course-card__top">
-            <div class="tile tile--coral">📊</div>
-            <div>
-              <h3>CAF-06 Corporate Reporting</h3>
-              <div class="meta">Sir Ahmed Raza Mir · Sir Aakash Kumar</div>
-            </div>
-          </div>
-          <div class="progress">
-            <div class="progress__row"><span>Course progress</span><b>65%</b></div>
-            <div class="progress__track"><div class="progress__fill"></div></div>
-          </div>
-          <a class="btn btn-primary btn-sm" href="courses.html#caf" style="margin-top:1.1rem">Continue</a>
-        </div>
-        <span class="chip chip--1" aria-hidden="true">🎯</span>
-        <span class="chip chip--2" aria-hidden="true">📚</span>
-        <span class="chip chip--3" aria-hidden="true">⭐</span>
+      <div class="reveal" data-delay="1">
+        <p>Every paper is taught by a specialist, and every mock is marked in detail so a student sees exactly where marks are won and lost. Classes run online and hybrid, and each course finishes well before the examination to leave room for revision.</p>
+        <p>Merit certificates and gold medals from the Institute of Chartered Accountants of Pakistan sit alongside a testing and marking system built in-house.</p>
       </div>
+    </div>
+    <div class="grid g4" style="margin-top:clamp(2.5rem,5vw,4rem)">
+      <div class="card reveal"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-book"/></svg></span><span class="card__tag">What we teach</span><h3>Four levels, plus HOC</h3><p>PRC, CAF, CFAP and the Strategic Case Study, plus hands-on short courses.</p></div></div>
+      <div class="card reveal" data-delay="1"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-users"/></svg></span><span class="card__tag">How we teach</span><h3>Online and hybrid</h3><p>Attend live from anywhere, or move between campus and live online sessions.</p></div></div>
+      <div class="card reveal" data-delay="2"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-clipboard"/></svg></span><span class="card__tag">How we check learning</span><h3>Weekly marked mocks</h3><p>A mid-term and two finals in every paper, reconciled to the total.</p></div></div>
+      <div class="card reveal" data-delay="3"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-award"/></svg></span><span class="card__tag">What we promise</span><h3>Guidance throughout</h3><p>Mentorship, induction, merit medals and CFAP guidance from start to finish.</p></div></div>
     </div>
   </div>
 </section>
 
-<section class="section section--white">
+<!-- STATS -->
+<section class="block block--tint">
+  <div class="wrap">
+    <div class="stats reveal">
+      <div class="s"><div class="v" data-count="8">8</div><div class="l">CAF papers taught, in two groups</div></div>
+      <div class="s"><div class="v" data-count="62">62</div><div class="l">Mocks per CAF session across the papers</div></div>
+      <div class="s"><div class="v">48 hrs</div><div class="l">From verified registration to portal access</div></div>
+      <div class="s"><div class="v">1–1.5 mo</div><div class="l">Course finishes before the exam, leaving room for revision</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMMES OVERVIEW -->
+<section class="block" id="courses">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="badge"><span class="dot"></span>What we teach</span>
       <h2>Courses</h2>
       <p>Four levels of the CA qualification, plus short hands-on courses. Open any course to see its papers, teachers and fees.</p>
     </div>
     <div class="grid g3">
-      <article class="clay-card reveal">
-        <div class="tile tile--coral">📊</div>
-        <span class="tagline">PRC · 3 papers</span>
-        <h3>Pre-Requisite Competencies</h3>
+      <article class="card reveal"><div class="card__body">
+        <span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-calc"/></svg></span>
+        <span class="card__tag">PRC · 3 papers</span><h3>Pre-Requisite Competencies</h3>
         <p>Three papers — the entry level of the CA qualification.</p>
-        <a class="card-link" href="courses.html#prc">Open course →</a>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--mint">📚</div>
-        <span class="tagline">CAF · 8 papers</span>
-        <h3>Certificate in Accounting and Finance</h3>
+        <a class="card__link" href="courses#prc">Open course <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      </div></article>
+      <article class="card featured reveal" data-delay="1"><div class="card__body">
+        <span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-book"/></svg></span>
+        <span class="card__tag">CAF · 8 papers</span><h3>Certificate in Accounting and Finance</h3>
         <p>Eight papers in two groups, taken as a full group or subject by subject.</p>
-        <a class="card-link" href="courses.html#caf">Open course →</a>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--lav">📈</div>
-        <span class="tagline">CFAP · 6 papers</span>
-        <h3>Certified Finance and Accounting Professional</h3>
+        <a class="card__link" href="courses#caf">Open course <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      </div></article>
+      <article class="card reveal" data-delay="2"><div class="card__body">
+        <span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-chart"/></svg></span>
+        <span class="card__tag">CFAP · 6 papers</span><h3>Certified Finance and Accounting Professional</h3>
         <p>Six papers, delivered in recorded format with guidance alongside.</p>
-        <a class="card-link" href="courses.html#cfap">Open course →</a>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--blue">💼</div>
-        <span class="tagline">Final assessment</span>
-        <h3>Strategic Case Study</h3>
+        <a class="card__link" href="courses#cfap">Open course <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      </div></article>
+      <article class="card reveal"><div class="card__body">
+        <span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-briefcase"/></svg></span>
+        <span class="card__tag">Final assessment</span><h3>Strategic Case Study</h3>
         <p>Case-study training with full-length attempts marked in context against the examiner's grid.</p>
-        <a class="card-link" href="courses.html#scs">Open course →</a>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--yellow">⭐</div>
-        <span class="tagline">Short courses</span>
-        <h3>Hands-on Courses</h3>
+        <a class="card__link" href="courses#scs">Open course <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      </div></article>
+      <article class="card reveal" data-delay="1"><div class="card__body">
+        <span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-sliders"/></svg></span>
+        <span class="card__tag">Short courses</span><h3>Hands-on Courses</h3>
         <p>Practical short courses that run alongside the CA papers.</p>
-        <a class="card-link" href="courses.html#hoc">Open course →</a>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--green">🏛️</div>
-        <span class="tagline">Route</span>
-        <h3>The Road to CA</h3>
+        <a class="card__link" href="courses#hoc">Open course <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      </div></article>
+      <article class="card reveal" data-delay="2" style="background:var(--cream)"><div class="card__body">
+        <span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-map"/></svg></span>
+        <span class="card__tag">Route</span><h3>The Road to CA</h3>
         <p>PRC → CAF → training contract → CFAP → Strategic Case Study.</p>
-        <a class="card-link" href="roadmap">The road to CA in full →</a>
-      </article>
+        <a class="card__link" href="roadmap">The road to CA in full <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      </div></article>
     </div>
   </div>
 </section>
 
-<section class="section section--cream">
+<!-- ONLINE VS HYBRID -->
+<section class="block block--tint" id="modes">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="badge badge--blue"><span class="dot"></span>Modes</span>
       <h2>Online vs hybrid</h2>
       <p>The teaching is the same in both modes. What changes is how you attend and what it costs.</p>
     </div>
     <div class="tbl-wrap reveal">
       <table class="tbl">
-        <thead><tr><th></th><th>Online</th><th>Hybrid</th></tr></thead>
+        <thead><tr><th></th><th>Online</th><th class="gold">Hybrid</th></tr></thead>
         <tbody>
           <tr><td><strong>How you attend</strong></td><td>Join the live session from anywhere</td><td>Come to campus, or join live online, as your week allows</td></tr>
           <tr><td><strong>Recorded lectures</strong></td><td>Yes — every live session</td><td>Yes — every live session</td></tr>
@@ -168,169 +189,117 @@
   </div>
 </section>
 
-<section class="section section--white">
+<!-- RESULTS TEASER -->
+<section class="block" id="results">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="badge badge--yellow"><span class="dot"></span>Results</span>
       <h2>Results</h2>
       <p>Merit certificates and gold medals awarded to our students by the Institute of Chartered Accountants of Pakistan.</p>
     </div>
-    <div class="hero__stats reveal" style="margin-bottom:2.5rem;justify-content:center">
-      <div class="hstat"><b class="hl-y">12</b><span>Merit certificates and gold medals, CAF examinations</span></div>
-      <div class="hstat"><b>3</b><span>Gold medals across the last two attempts</span></div>
-      <div class="hstat"><b>Mar 26</b><span>CAF gold — Corporate Reporting</span></div>
-      <div class="hstat"><b>Jun 26</b><span>CFAP golds — Reporting &amp; Finance</span></div>
+    <div class="stats reveal" style="margin-bottom:1.5rem">
+      <div class="s"><div class="v" data-count="12">12</div><div class="l">Merit certificates and gold medals, CAF examinations</div></div>
+      <div class="s"><div class="v" data-count="3">3</div><div class="l">Gold medals across the last two attempts</div></div>
+      <div class="s"><div class="v">Mar 26</div><div class="l">CAF gold — Corporate Reporting</div></div>
+      <div class="s"><div class="v">Jun 26</div><div class="l">CFAP golds — Reporting &amp; Finance</div></div>
     </div>
     <div class="grid g3">
-      <article class="spot reveal">
-        <img src="https://arm-business-school-website.vercel.app/assets/people/02-touqeer-ul-hassan.jpeg?v=3" alt="Touqeer ul Hassan — CAF-06 gold medalist" loading="lazy">
-        <div class="spot__body">
-          <span class="spot__tag">Gold medal</span>
-          <h3>Touqeer ul Hassan</h3>
-          <small>CAF-06 Corporate Reporting · March 2026</small>
-        </div>
-      </article>
-      <article class="spot reveal">
-        <img src="https://arm-business-school-website.vercel.app/assets/team/ali-waris.jpg?v=3" alt="Ali Waris — CFAP-01 gold medalist" loading="lazy">
-        <div class="spot__body">
-          <span class="spot__tag">Gold medal</span>
-          <h3>Ali Waris</h3>
-          <small>CFAP-01 Advanced Reporting · June 2026</small>
-        </div>
-      </article>
-      <article class="spot reveal">
-        <img src="https://arm-business-school-website.vercel.app/assets/people/01-hadi-nadeem.jpeg?v=3" alt="Hadi Nadeem — CFAP-04 gold medalist" loading="lazy">
-        <div class="spot__body">
-          <span class="spot__tag">Gold medal</span>
-          <h3>Hadi Nadeem</h3>
-          <small>CFAP-04 Business Finance · June 2026</small>
-        </div>
-      </article>
+      <div class="hon reveal">
+        <div class="hx"><span class="tag">CAF</span><span class="att">March 2026 attempt</span></div>
+        <h3>CAF-06 Corporate Reporting — Gold medal</h3>
+        <div class="achiever"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/people/02-touqeer-ul-hassan.jpeg?v=3" alt="Touqeer ul Hassan — CAF-06 gold medalist" loading="lazy"><div class="who"><b>Touqeer ul Hassan</b><small>Gold medal · CAF-06</small></div></div>
+      </div>
+      <div class="hon reveal" data-delay="1">
+        <div class="hx"><span class="tag">CFAP</span><span class="att">June 2026 attempt</span></div>
+        <h3>CFAP-01 Advanced Reporting — Gold medal</h3>
+        <div class="achiever"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/team/ali-waris.jpg?v=3" alt="Ali Waris — CFAP-01 gold medalist" loading="lazy"><div class="who"><b>Ali Waris</b><small>Gold medal · CFAP-01</small></div></div>
+      </div>
+      <div class="hon reveal" data-delay="2">
+        <div class="hx"><span class="tag">CFAP</span><span class="att">June 2026 attempt</span></div>
+        <h3>CFAP-04 Business Finance — Gold medal</h3>
+        <div class="achiever"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/people/01-hadi-nadeem.jpeg?v=3" alt="Hadi Nadeem — CFAP-04 gold medalist" loading="lazy"><div class="who"><b>Hadi Nadeem</b><small>Gold medal · CFAP-04</small></div></div>
+      </div>
     </div>
-    <div class="reveal" style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:.9rem;justify-content:center">
-      <a class="btn" href="results">All results</a>
-      <a class="btn btn-secondary" href="mocks">How the testing system works</a>
+    <div class="apply-row reveal" style="margin-top:2rem">
+      <a class="btn ghost" href="results">All results <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      <a class="btn ghost" href="mocks">How the testing system works</a>
     </div>
   </div>
 </section>
 
-<section class="section section--cream">
+<!-- PRINCIPAL -->
+<section class="block principal-band" id="principal">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="badge badge--coral"><span class="dot"></span>Leadership</span>
       <h2>Chief Executive Principal</h2>
       <p>Teaching led from the front — in the studio, in the classroom, and on every mock.</p>
     </div>
     <div class="leader">
       <figure class="reveal">
-        <img src="https://arm-business-school-website.vercel.app/assets/faculty/ahmed-raza-mir.jpg?v=3" alt="Sir Ahmed Raza Mir — Chief Executive Principal, ARM Business School" loading="lazy">
+        <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/faculty/ahmed-raza-mir.jpg?v=3" alt="Sir Ahmed Raza Mir — Chief Executive Principal, ARM Business School">
         <figcaption><b>Sir Ahmed Raza Mir</b><small>Chief Executive Principal · FAR · DSR · MA · CR · BIA · CFAP-01 · CFAP-04</small></figcaption>
       </figure>
-      <div class="reveal">
+      <div class="reveal" data-delay="1">
         <p class="pullquote">Marks are won one working at a time. We teach the concept, drill it under timed conditions, and mark it the way the examiner will.</p>
         <p class="pullquote-name">Sir Ahmed Raza Mir — Chief Executive Principal</p>
-        <div style="display:flex;flex-wrap:wrap;gap:.9rem;margin-top:1.4rem">
-          <a class="btn btn-primary" href="about.html#leader">Meet the principal</a>
-          <a class="btn btn-secondary" href="faculty">Meet the faculty</a>
+        <div class="apply-row">
+          <a class="btn light" href="about#leader">Meet the principal <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+          <a class="btn outline-light" href="faculty">Meet the faculty</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section section--white">
+<!-- INSIDE ARM -->
+<section class="block" id="campus">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="badge badge--lav"><span class="dot"></span>Campus</span>
       <h2>Inside ARM</h2>
       <p>The hall at full strength and the library where students revise.</p>
     </div>
     <div class="strip">
-      <figure class="reveal">
-        <img src="https://arm-business-school-website.vercel.app/assets/photos/01-induction-session.jpeg?v=3" alt="Induction session at ARM Business School — the hall at full strength" loading="lazy">
-        <figcaption>Induction session — the hall at full strength</figcaption>
-      </figure>
-      <figure class="reveal">
-        <img src="https://arm-business-school-website.vercel.app/assets/photos/08-the-library.jpeg?v=3" alt="The ARM library" loading="lazy">
-        <figcaption>The library</figcaption>
-      </figure>
-      <figure class="reveal">
-        <img src="https://arm-business-school-website.vercel.app/assets/photos/09-students-working-in-the-library.jpeg?v=3" alt="Students working in the ARM library" loading="lazy">
-        <figcaption>Students working in the library</figcaption>
-      </figure>
+      <figure class="reveal"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/photos/01-induction-session.jpeg?v=3" alt="Induction session at ARM Business School — the hall at full strength" loading="lazy"><figcaption>Induction session — the hall at full strength</figcaption></figure>
+      <figure class="reveal" data-delay="1"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/photos/08-the-library.jpeg?v=3" alt="The ARM library" loading="lazy"><figcaption>The library</figcaption></figure>
+      <figure class="reveal" data-delay="2"><img decoding="async" src="https://arm-business-school-website.vercel.app/assets/photos/09-students-working-in-the-library.jpeg?v=3" alt="Students working in the ARM library" loading="lazy"><figcaption>Students working in the library</figcaption></figure>
     </div>
-    <div class="reveal" style="margin-top:2rem;text-align:center">
-      <a class="btn" href="about.html#campus">More about the school</a>
+    <div class="apply-row reveal" style="margin-top:2rem">
+      <a class="btn ghost" href="about#campus">More about the school <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
     </div>
   </div>
 </section>
 
-<section class="cta-band">
-  <div class="wrap">
-    <div class="cta-card reveal">
-      <h2>Ready to start with us?</h2>
-      <p>Fill the registration form for your level and your portal opens within 48 hours. If you would rather ask something first, our team is a message away.</p>
-      <div class="cta-card__row">
-        <a class="btn btn-primary" href="admissions">Apply for the next session</a>
-        <a class="btn btn-secondary" href="contact">Contact us</a>
-      </div>
-      <div class="assure">
-        <span><span class="check">✓</span>48-hour portal access</span>
-        <span><span class="check">✓</span>Online &amp; hybrid</span>
-        <span><span class="check">✓</span>Weekly marked mocks</span>
-      </div>
+<!-- CTA -->
+<section class="cta">
+  <div class="wrap reveal">
+    <h2>Ready to start with us?</h2>
+    <p>Fill the registration form for your level and your portal opens within 48 hours. If you would rather ask something first, our team is a message away.</p>
+    <div class="cta__row">
+      <a class="btn light" href="admissions">Apply for the next session <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      <a class="btn" style="background:transparent;border-color:rgba(255,255,255,.6)" href="contact">Contact us</a>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="footer">
+<footer class="site">
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <a class="brand" href="./" aria-label="ARM Business School — home">
-          <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
-          <span>ARM Business School</span>
-        </a>
-        <p>A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
-        <p><strong>Learn. Lead. Succeed.</strong></p>
-        <div class="social-row">
-          <a class="soc" href="https://wa.me/923327948519" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
-          <a class="soc" href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
-          <a class="soc" href="tel:+922137123083" aria-label="Phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
+        </div>
+        <p class="foot-motto">Learn. Lead. Succeed.</p>
+        <p class="foot-tag">A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
+        <div class="social">
+          <a href="https://wa.me/923327948519" aria-label="WhatsApp"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-whatsapp"/></svg></a>
+          <a href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-mail"/></svg></a>
+          <a href="tel:+922137123083" aria-label="Phone"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-phone"/></svg></a>
         </div>
       </div>
-      <div class="foot-col">
-        <h4>Courses</h4>
-        <ul>
-          <li><a href="courses.html#prc">PRC</a></li>
-          <li><a href="courses.html#caf">CAF</a></li>
-          <li><a href="courses.html#cfap">CFAP</a></li>
-          <li><a href="courses.html#scs">Strategic Case Study</a></li>
-          <li><a href="courses.html#hoc">Hands-on Courses</a></li>
-        </ul>
-      </div>
-      <div class="foot-col">
-        <h4>Quick links</h4>
-        <ul>
-          <li><a href="admissions">Admissions</a></li>
-          <li><a href="fees">Fees</a></li>
-          <li><a href="mocks">Testing</a></li>
-          <li><a href="roadmap">Roadmap</a></li>
-          <li><a href="faq">FAQs</a></li>
-          <li><a href="contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="foot-col">
-        <h4>Visit</h4>
-        <address>
-          Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi<br>
-          <a href="tel:+922137123083">021-37123083</a><br>
-          <a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a><br>
-          Monday to Saturday, 9:00 am to 5:00 pm
-        </address>
-      </div>
+      <div><h4 class="fh">Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
+      <div><h4 class="fh">Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
+      <div><h4 class="fh">Visit and reach us</h4><ul><li>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi</li><li><a href="tel:+922137123083">021-37123083</a></li><li><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a></li><li>Monday to Saturday, 9:00 am to 5:00 pm</li></ul></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> ARM Business School. All rights reserved.</span>
@@ -339,7 +308,7 @@
   </div>
 </footer>
 
-<button class="totop" id="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="js/app.js" defer></script>
+<button class="totop" id="totop" aria-label="Back to top"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
+<script src="js/app.js?v=3" defer></script>
 </body>
 </html>

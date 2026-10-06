@@ -7,90 +7,80 @@
 <title>Mocks &amp; Testing System — ARM Business School</title>
 <meta name="description" content="How ARM marks mocks like the real examiner, mocks per paper, and the mock submission form.">
 <link rel="icon" type="image/png" href="https://arm-business-school-website.vercel.app/assets/logo-green.png">
-<link rel="stylesheet" href="css/clay.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=12">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 
-<header class="navfloat">
-  <a class="brand" href="./" aria-label="ARM Business School — home">
-    <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
-    <span>ARM Business School</span>
-  </a>
-  <nav class="navlinks" aria-label="Primary">
-    <a href="./">Home</a>
-    <a href="courses">Courses</a>
-    <a href="faculty">Faculty</a>
-    <a href="admissions">Admissions</a>
-    <a href="fees">Fees</a>
-    <a href="mocks" class="active">Mocks</a>
-    <a href="results">Results</a>
-    <a href="about">About</a>
-    <a href="faq">FAQs</a>
-    <a href="contact">Contact</a>
-  </nav>
-  <div class="nav-cta">
-    <a class="btn btn-primary btn-sm" href="admissions">Apply Now</a>
-    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
+<header class="masthead" id="masthead">
+  <div class="wrap masthead__bar">
+    <a class="brand" href="./" aria-label="ARM Business School — home">
+      <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="./">Home</a>
+      <a href="courses">Courses</a>
+      <a href="faculty">Faculty</a>
+      <a href="admissions">Admissions</a>
+      <a href="fees">Fees</a>
+      <a href="mocks" class="active">Mocks</a>
+      <a href="results">Results</a>
+      <a href="about">About</a>
+      <a href="faq">FAQs</a>
+      <a href="contact">Contact</a>
+    </nav>
+    <div class="mast-actions">
+      <a class="btn gold" href="admissions">Apply now</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <div class="wrap">
+      <a href="./">Home</a>
+      <a href="courses">Courses</a>
+      <a href="faculty">Faculty</a>
+      <a href="admissions">Admissions</a>
+      <a href="fees">Fees</a>
+      <a href="mocks">Mocks</a>
+      <a href="results">Results</a>
+      <a href="about">About</a>
+      <a href="faq">FAQs</a>
+      <a href="contact">Contact</a>
+      <a href="admissions" class="m-apply">Apply now</a>
+    </div>
   </div>
 </header>
-<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
-  <a href="./">Home</a>
-  <a href="courses">Courses</a>
-  <a href="faculty">Faculty</a>
-  <a href="admissions">Admissions</a>
-  <a href="fees">Fees</a>
-  <a href="mocks">Mocks</a>
-  <a href="results">Results</a>
-  <a href="about">About</a>
-  <a href="faq">FAQs</a>
-  <a href="contact">Contact</a>
-  <a href="admissions"><strong>Apply Now →</strong></a>
-</nav>
 
 <main id="main">
 
 <section class="page-hero">
   <div class="wrap">
-    <span class="badge"><span class="dot"></span>Testing system</span>
+    <p class="kicker">Testing system</p>
     <h1>Mocks marked like the real examiner</h1>
-    <p class="lede">Attempt a mock any day of the session. Email your script and it comes back as a detailed PDF — every question marked, every mark reconciled to the total.</p>
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> / Mocks</nav>
+    <div class="hero__rule" style="margin:1.5rem 0 0"></div>
+    <p class="page-hero__lede">Attempt a mock any day of the session. Email your script and it comes back as a detailed PDF — every question marked, every mark reconciled to the total.</p>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a> &nbsp;/&nbsp; Mocks</nav>
   </div>
 </section>
 
-<section class="section section--white">
+<section class="block">
   <div class="wrap">
     <div class="grid g4">
-      <article class="clay-card reveal">
-        <div class="tile tile--mint">📚</div>
-        <h3>Marked in context, not by keyword</h3>
-        <p>Law, DSR and case-study answers are read as answers. Your own words are kept, marked green and red with short examiner comments, and judged on the concept rather than on a matching phrase.</p>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--coral">📊</div>
-        <h3>Numbers checked working by working</h3>
-        <p>BIA, MA, FAR and Tax scripts are checked calculation by calculation, so you see exactly where a figure went wrong rather than losing a block of marks silently.</p>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--yellow">✅</div>
-        <h3>Marks that add up</h3>
-        <p>Question marks, totals and percentages reconcile everywhere in the report. A report that does not reconcile is never sent.</p>
-      </article>
-      <article class="clay-card reveal">
-        <div class="tile tile--lav">⭐</div>
-        <h3>Consistent every time</h3>
-        <p>The same answer to the same mock always receives the same result. Resubmitting an identical script does not change your marks.</p>
-      </article>
+      <div class="card reveal"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-book"/></svg></span><h3>Marked in context, not by keyword</h3><p>Law, DSR and case-study answers are read as answers. Your own words are kept, marked green and red with short examiner comments, and judged on the concept rather than on a matching phrase.</p></div></div>
+      <div class="card reveal" data-delay="1"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-calc"/></svg></span><h3>Numbers checked working by working</h3><p>BIA, MA, FAR and Tax scripts are checked calculation by calculation, so you see exactly where a figure went wrong rather than losing a block of marks silently.</p></div></div>
+      <div class="card reveal" data-delay="2"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-check"/></svg></span><h3>Marks that add up</h3><p>Question marks, totals and percentages reconcile everywhere in the report. A report that does not reconcile is never sent.</p></div></div>
+      <div class="card reveal" data-delay="3"><div class="card__body"><span class="card__icon"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-shield"/></svg></span><h3>Consistent every time</h3><p>The same answer to the same mock always receives the same result. Resubmitting an identical script does not change your marks.</p></div></div>
     </div>
     <p class="formnote reveal" style="margin-top:1.6rem">Weekly mocks plus one mid-term and two final mocks per paper, per session.</p>
   </div>
 </section>
 
-<section class="section section--cream">
+<section class="block block--tint">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="badge badge--blue"><span class="dot"></span>Schedule</span>
       <h2>Mocks per paper, per session</h2>
       <p>Every paper gets weekly mocks through the session, plus one mid-term and two finals.</p>
     </div>
@@ -111,16 +101,15 @@
   </div>
 </section>
 
-<section class="section section--white" id="submit">
+<section class="block" id="submit">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="badge badge--coral"><span class="dot"></span>Submit</span>
       <h2>Submit your mock</h2>
       <p>Choose your subject and mock, and send your script in one place. Your marked result is emailed to you.</p>
     </div>
-    <div class="cols">
-      <form id="mockForm" class="form-card reveal">
-        <div class="field"><label for="m-subject">Subject</label><select id="m-subject"></select></div>
+    <div class="contact-grid">
+      <form id="mockForm" class="reveal">
+        <div class="field"><label for="m-subject">Subject</label><select id="m-subject"><!-- mock options come from MOCK_SUBJECTS in js/app.js --></select></div>
         <div class="grid g2">
           <div class="field"><label for="m-mock">Mock number / title</label><input id="m-mock" placeholder="e.g. Weekly 4"></div>
           <div class="field"><label for="m-crn">CRN (portal login)</label><input id="m-crn" placeholder="Your CRN"></div>
@@ -130,84 +119,54 @@
           <div class="field"><label for="m-email">Email for the result</label><input id="m-email" type="email" placeholder="you@example.com" autocomplete="email"></div>
         </div>
         <div class="field"><label for="m-note">Note for the examiner (optional)</label><textarea id="m-note" placeholder="Anything we should know before marking"></textarea></div>
-        <button class="btn btn-primary" type="submit">Send submission via WhatsApp</button>
+        <button class="btn" type="submit">Send submission via WhatsApp</button>
         <p class="formnote" style="margin-top:.9rem">After sending, attach your script (PDF or clear photos) in the same WhatsApp chat. Your marked report comes back to your email as a detailed PDF.</p>
       </form>
-      <div class="reveal">
-        <span class="badge badge--yellow"><span class="dot"></span>How it works</span>
-        <h3 style="margin:1rem 0">One form, one script, one report</h3>
+      <div class="reveal" data-delay="1">
+        <p class="eyebrow">How it works</p>
+        <h3 style="margin-bottom:1rem">One form, one script, one report</h3>
         <ol class="steps">
-          <li class="step"><h3>Attempt under time</h3><p>Sit the mock like the real paper — same timing, no notes.</p></li>
-          <li class="step"><h3>Send the form</h3><p>Fill the subject, mock, CRN, name and the email your result should go to.</p></li>
-          <li class="step"><h3>Attach your script</h3><p>Send the attempted script in the same chat, or email it to armbusinesschool@gmail.com.</p></li>
-          <li class="step"><h3>Get your report</h3><p>Every question marked, every mark reconciled to the total — emailed to you as a PDF.</p></li>
+          <li class="step"><div><h3>Attempt under time</h3><p>Sit the mock like the real paper — same timing, no notes.</p></div></li>
+          <li class="step"><div><h3>Send the form</h3><p>Fill the subject, mock, CRN, name and the email your result should go to.</p></div></li>
+          <li class="step"><div><h3>Attach your script</h3><p>Send the attempted script in the same chat, or email it to armbusinesschool@gmail.com.</p></div></li>
+          <li class="step"><div><h3>Get your report</h3><p>Every question marked, every mark reconciled to the total — emailed to you as a PDF.</p></div></li>
         </ol>
       </div>
     </div>
   </div>
 </section>
 
-<section class="cta-band">
-  <div class="wrap">
-    <div class="cta-card reveal">
-      <h2>The proof is in the results</h2>
-      <p>Gold medals and merit certificates from the last two attempts, marked the same way.</p>
-      <div class="cta-card__row">
-        <a class="btn btn-primary" href="results">See results</a>
-        <a class="btn btn-secondary" href="courses">Browse courses</a>
-      </div>
+<section class="cta">
+  <div class="wrap reveal">
+    <h2>The proof is in the results</h2>
+    <p>Gold medals and merit certificates from the last two attempts, marked the same way.</p>
+    <div class="cta__row">
+      <a class="btn light" href="results">See results <svg class="arw" aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></a>
+      <a class="btn" style="background:transparent;border-color:rgba(255,255,255,.6)" href="courses">Browse courses</a>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="footer">
+<footer class="site">
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <a class="brand" href="./" aria-label="ARM Business School — home">
-          <span class="brand__tile"><img src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School logo"></span>
-          <span>ARM Business School</span>
-        </a>
-        <p>A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
-        <p><strong>Learn. Lead. Succeed.</strong></p>
-        <div class="social-row">
-          <a class="soc" href="https://wa.me/923327948519" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
-          <a class="soc" href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
-          <a class="soc" href="tel:+922137123083" aria-label="Phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <img decoding="async" src="https://arm-business-school-website.vercel.app/assets/logo-green.png" alt="ARM Business School — original logo">
+        </div>
+        <p class="foot-motto">Learn. Lead. Succeed.</p>
+        <p class="foot-tag">A chartered accountancy teaching institution: PRC, CAF, CFAP and the Strategic Case Study.</p>
+        <div class="social">
+          <a href="https://wa.me/923327948519" aria-label="WhatsApp"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-whatsapp"/></svg></a>
+          <a href="mailto:armbusinesschool@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-mail"/></svg></a>
+          <a href="tel:+922137123083" aria-label="Phone"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-phone"/></svg></a>
         </div>
       </div>
-      <div class="foot-col">
-        <h4>Courses</h4>
-        <ul>
-          <li><a href="courses.html#prc">PRC</a></li>
-          <li><a href="courses.html#caf">CAF</a></li>
-          <li><a href="courses.html#cfap">CFAP</a></li>
-          <li><a href="courses.html#scs">Strategic Case Study</a></li>
-          <li><a href="courses.html#hoc">Hands-on Courses</a></li>
-        </ul>
-      </div>
-      <div class="foot-col">
-        <h4>Quick links</h4>
-        <ul>
-          <li><a href="admissions">Admissions</a></li>
-          <li><a href="fees">Fees</a></li>
-          <li><a href="mocks">Testing</a></li>
-          <li><a href="roadmap">Roadmap</a></li>
-          <li><a href="faq">FAQs</a></li>
-          <li><a href="contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="foot-col">
-        <h4>Visit</h4>
-        <address>
-          Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi<br>
-          <a href="tel:+922137123083">021-37123083</a><br>
-          <a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a><br>
-          Monday to Saturday, 9:00 am to 5:00 pm
-        </address>
-      </div>
+      <div><h4 class="fh">Courses</h4><ul><li><a href="courses#prc">PRC</a></li><li><a href="courses#caf">CAF</a></li><li><a href="courses#cfap">CFAP</a></li><li><a href="courses#scs">Strategic Case Study</a></li><li><a href="courses#hoc">Hands-on Courses</a></li></ul></div>
+      <div><h4 class="fh">Quick links</h4><ul><li><a href="admissions">Admissions</a></li><li><a href="fees">Fees &amp; policies</a></li><li><a href="fees#pay">Pay your fee</a></li><li><a href="mocks">Testing system</a></li><li><a href="mocks#submit">Submit a mock</a></li><li><a href="roadmap">Road to CA</a></li><li><a href="faq">FAQs</a></li><li><a href="contact">Contact</a></li></ul></div>
+      <div><h4 class="fh">Visit and reach us</h4><ul><li>Main Shahra-e-Faisal, behind Fortune Centre, F-45, Block 6, P.E.C.H.S., Karachi</li><li><a href="tel:+922137123083">021-37123083</a></li><li><a href="mailto:armbusinesschool@gmail.com">armbusinesschool@gmail.com</a></li><li>Monday to Saturday, 9:00 am to 5:00 pm</li></ul></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> ARM Business School. All rights reserved.</span>
@@ -216,7 +175,7 @@
   </div>
 </footer>
 
-<button class="totop" id="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-<script src="js/app.js" defer></script>
+<button class="totop" id="totop" aria-label="Back to top"><svg aria-hidden="true"><use href="assets/icons.svg?v=2#i-arrow"/></svg></button>
+<script src="js/app.js?v=3" defer></script>
 </body>
 </html>
